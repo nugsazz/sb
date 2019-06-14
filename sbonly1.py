@@ -31,7 +31,7 @@ from thrift.transport import THttpClient
 #AKUN SELFBOT+ASIST
 #===================================================================================================
 print("\nLOGIN                        SB")
-cl = LINE("EMAIL","PASSWD")
+cl = LINE("EGcMR6M3v1hvaJaGUKV2.eZ9Xen0a5JxWD2LxG3bvOG.AY3Smk7rTgIvQsCVRC07vlHkmr6rRe80ki100S6w/T0=")
 cl.log("Auth Token : " + str(cl.authToken)) #SELFBOT
 
 print("\nLOGIN SUCCESS")
@@ -45,7 +45,7 @@ call = cl
 jaka = ["ua5b1fd053f5a6951349b912a8a7b6755"]
 creator = ["ua5b1fd053f5a6951349b912a8a7b6755"]
 owner = ["ua5b1fd053f5a6951349b912a8a7b6755"]
-admin = ["ua5b1fd053f5a6951349b912a8a7b6755"]
+admin = ["u133f7110dd00e635f0776957837055a2","ua5b1fd053f5a6951349b912a8a7b6755"]
 staff = ["ua5b1fd053f5a6951349b912a8a7b6755"]
 Drop_Xv = "u58b4ebbe0cc52d5389669c0957de9e57" #ID_DROPING_BOTS
 Xv_WIN = "u58b4ebbe0cc52d5389669c0957de9e57" #ID_WINDOWS_XP
@@ -374,17 +374,7 @@ stickersOpen = codecs.open("sticker.json","r","utf-8")
 audiosOpen = codecs.open("audio.json","r","utf-8")
 unsendOpen = codecs.open("unsend.json","r","utf-8")
 plates = codecs.open("template.json","r","utf-8")
-butt = codecs.open("importible/button.json","r","utf-8")
-fill = codecs.open("importible/filler.json","r","utf-8")
-imag = codecs.open("importible/image.json","r","utf-8")
-boob = codecs.open("importible/booble.json","r","utf-8")
-tek = codecs.open("importible/teks.json","r","utf-8")
 plate = json.load(plates)
-button = json.load(butt)
-filler = json.load(fill)
-image = json.load(imag)
-booble = json.load(boob)
-teks = json.load(tek)
 images = json.load(imagesOpen)
 videos = json.load(videosOpen)
 stickers = json.load(stickersOpen)
@@ -644,7 +634,7 @@ def backupProfile():
 def mentionMembers(to, mid):
     try:
         arrData = ""
-        textx = "╔━━━━[ {} MEMBER GROUP ]━━\n╠❂1. ".format(str(len(mid)))
+        textx = "âââââ[ {} MEMBER GROUP ]ââ\nâ â1. ".format(str(len(mid)))
         arr = []
         no = 1
         num = 2
@@ -657,14 +647,14 @@ def mentionMembers(to, mid):
             textx += mention
             if no < len(mid):
                 no += 1
-                textx += "╠❂%i.  " % (num)
+                textx += "â â%i.  " % (num)
                 num=(num+1)
             else:
                 try:
-                    no = "\n╚══[ {} ]".format(str(cl.getGroup(to).name))
+                    no = "\nâââ[ {} ]".format(str(cl.getGroup(to).name))
                 except:
-                    no = "\n╚══[ Success ]"
-        cl.sendMessage(to, textx+"╚══━━━━━━━━━━━━━━━━━━━━", {'MENTION': str('{"MENTIONEES":' + json.dumps(arr) + '}')}, 0)
+                    no = "\nâââ[ Success ]"
+        cl.sendMessage(to, textx+"âââââââââââââââââââââââ", {'MENTION': str('{"MENTIONEES":' + json.dumps(arr) + '}')}, 0)
     except Exception as error:
         cl.sendMessage(to, "[ INFO ] Error :\n" + str(error))
 def sendMentionV3(to, text="", mids=[]):
@@ -737,9 +727,9 @@ def siderMembers(to, mid):
                 num=(num+1)
             else:
                 try:
-                    no = "\n╚══[ {} ]".format(str(cl.getGroup(to).name))
+                    no = "\nâââ[ {} ]".format(str(cl.getGroup(to).name))
                 except:
-                    no = "\n╚══[ Success ]"
+                    no = "\nâââ[ Success ]"
         cl.sendMessage(to, textx, {'MENTION': str('{"MENTIONEES":' + json.dumps(arr) + '}')}, 0)
     except Exception as error:
         cl.sendMessage(to, "[ INFO ] Error :\n" + str(error))
@@ -773,7 +763,7 @@ def leaveMembers(to, mid):
 def welcomeMembers(to, mid):
     try:
         arrData = ""
-        textx = "Member Masuk「{}」\nHaii  ".format(str(len(mid)))
+        textx = "Member Masukã{}ã\nHaii  ".format(str(len(mid)))
         arr = []
         no = 1
         num = 2
@@ -791,9 +781,9 @@ def welcomeMembers(to, mid):
                 num=(num+1)
             else:
                 try:
-                    no = "\n╚══[ {} ]".format(str(cl.getGroup(to).name))
+                    no = "\nâââ[ {} ]".format(str(cl.getGroup(to).name))
                 except:
-                    no = "\n╚══[ Success ]"
+                    no = "\nâââ[ Success ]"
         cl.sendMessage(to, textx, {'MENTION': str('{"MENTIONEES":' + json.dumps(arr) + '}')}, 0)
     except Exception as error:
         cl.sendMessage(to, "[ INFO ] Error :\n" + str(error))
@@ -819,7 +809,7 @@ def sendMention(to, mid, firstmessage):
         timeNow = datetime.now(tz=tz)
         eltime = time.time() - mulai
         bot = runtime(eltime)
-        text += mention+"\nJam : "+datetime.strftime(timeNow,'%H:%M:%S')+" Wib\nGroup : "+str(len(gid))+"\nTeman : "+str(len(teman))+"\nxpired : In "+hari+"\nVersion : Sempak Bot\nTanggal : "+datetime.strftime(timeNow,'%Y-%m-%d')+"\nRuntime : \n • "+bot
+        text += mention+"\nJam : "+datetime.strftime(timeNow,'%H:%M:%S')+" Wib\nGroup : "+str(len(gid))+"\nTeman : "+str(len(teman))+"\nxpired : In "+hari+"\nVersion : Sempak Bot\nTanggal : "+datetime.strftime(timeNow,'%Y-%m-%d')+"\nRuntime : \n â¢ "+bot
         cl.sendMessage(to, text, {'MENTION': str('{"MENTIONEES":' + json.dumps(arr) + '}')}, 0)
     except Exception as error:
         cl.sendMessage(to, "[ INFO ] Error :\n" + str(error))
@@ -858,99 +848,99 @@ def help():
     num = 1
     key = Setmain["keyCommand"]
     key = key.title()
-    helpMessage = "╭━━━━━━━━━━━━━━━\n"
-    helpMessage += "┃ " + "╭──━━━━━━━━━━━━━━⍟─\n"
-    helpMessage += "┃" + " ├──━━━━━━━━━━━━━━──\n"
-    helpMessage += "┃" + " ├──────────────\n"
-    helpMessage += "╠❂➣ %i. " % num + key + "Me\n"
+    helpMessage = "â­âââââââââââââââ\n"
+    helpMessage += "â " + "â­ââââââââââââââââââ\n"
+    helpMessage += "â" + " âââââââââââââââââââ\n"
+    helpMessage += "â" + " âââââââââââââââ\n"
+    helpMessage += "â ââ£ %i. " % num + key + "Me\n"
     num = (num+1)
-    helpMessage += "╠❂➣ %i. " % num + key + "Speed/sped/sp\n"
+    helpMessage += "â ââ£ %i. " % num + key + "Speed/sped/sp\n"
     num = (num+1)
-    helpMessage += "╠❂➣ %i. " % num + key + "Kepo @\n"
+    helpMessage += "â ââ£ %i. " % num + key + "Kepo @\n"
     num = (num+1)
-    helpMessage += "╠❂➣ %i. " % num + key + "Mybot\n"
+    helpMessage += "â ââ£ %i. " % num + key + "Mybot\n"
     num = (num+1)   
-    helpMessage += "╠❂➣ %i. " % num + key + "Name\n"
+    helpMessage += "â ââ£ %i. " % num + key + "Name\n"
     num = (num+1)
-    helpMessage += "╠❂➣ %i. " % num + key + "Get mid @\n"
+    helpMessage += "â ââ£ %i. " % num + key + "Get mid @\n"
     num = (num+1)
-    helpMessage += "╠❂➣ %i. " % num + key + "About\n"
+    helpMessage += "â ââ£ %i. " % num + key + "About\n"
     num = (num+1)
-    helpMessage += "╠❂➣ %i. " % num + key + "Time\n"
+    helpMessage += "â ââ£ %i. " % num + key + "Time\n"
     num = (num+1)
-    helpMessage += "╠❂➣ %i. " % num + key + "Creator\n"
+    helpMessage += "â ââ£ %i. " % num + key + "Creator\n"
     num = (num+1)
-    helpMessage += "╠❂➣ %i. " % num + key + "Ginfo\n"
+    helpMessage += "â ââ£ %i. " % num + key + "Ginfo\n"
     num = (num+1)
-    helpMessage += "╠❂➣ %i. " % num + key + "Open\n"
+    helpMessage += "â ââ£ %i. " % num + key + "Open\n"
     num = (num+1)    
-    helpMessage += "╠❂➣ %i. " % num + key + "Close\n"
+    helpMessage += "â ââ£ %i. " % num + key + "Close\n"
     num = (num+1)
-    helpMessage += "╠❂➣ %i ." % num + key + "Url grup\n"
+    helpMessage += "â ââ£ %i ." % num + key + "Url grup\n"
     num = (num+1)
-    helpMessage += "╠❂➣ %i. " % num + key + "Glist\n"
+    helpMessage += "â ââ£ %i. " % num + key + "Glist\n"
     num = (num+1)
-    helpMessage += "╠❂➣ %i. " % num + key + "Stafflist\n"
+    helpMessage += "â ââ£ %i. " % num + key + "Stafflist\n"
     num = (num+1)
-    helpMessage += "╠❂➣ %i. " % num + key + "Botlist\n"
+    helpMessage += "â ââ£ %i. " % num + key + "Botlist\n"
     num = (num+1)
-    helpMessage += "╠❂➣ %i. " % num + key + "Hapuschat\n"
+    helpMessage += "â ââ£ %i. " % num + key + "Hapuschat\n"
     num = (num+1)
-    helpMessage += "╠❂➣ %i. " % num + key + "X on/off\n"
+    helpMessage += "â ââ£ %i. " % num + key + "X on/off\n"
     num = (num+1)
-    helpMessage += "╠❂➣ %i. " % num + key + "Upfoto\n"
+    helpMessage += "â ââ£ %i. " % num + key + "Upfoto\n"
     num = (num+1)
-    helpMessage += "╠❂➣ %i. " % num + key + "Upgrup\n"
+    helpMessage += "â ââ£ %i. " % num + key + "Upgrup\n"
     num = (num+1)
-    helpMessage += "╠❂➣ %i. " % num + key + "Bcast:「Text」\n"
+    helpMessage += "â ââ£ %i. " % num + key + "Bcast:ãTextã\n"
     num = (num+1)
-    helpMessage += "╠❂➣ %i. " % num + key + "Set sname\n"
+    helpMessage += "â ââ£ %i. " % num + key + "Set sname\n"
     num = (num+1)
-    helpMessage += "╠❂➣ %i. " % num + key + "name: nama\n"
+    helpMessage += "â ââ£ %i. " % num + key + "name: nama\n"
     num = (num+1)
-    helpMessage += "╠❂➣ %i. " % num + key + "name1/7: nama\n"
+    helpMessage += "â ââ£ %i. " % num + key + "name1/7: nama\n"
     num = (num+1)
-    helpMessage += "╠❂➣ %i. " % num + key + "Reset sname\n"
+    helpMessage += "â ââ£ %i. " % num + key + "Reset sname\n"
     num = (num+1)
-    helpMessage += "╠❂➣ %i. " % num + key + "Ssider: text\n"
+    helpMessage += "â ââ£ %i. " % num + key + "Ssider: text\n"
     num = (num+1)
-    helpMessage += "╠❂➣ %i. " % num + key + "Spesan: text\n"
+    helpMessage += "â ââ£ %i. " % num + key + "Spesan: text\n"
     num = (num+1)
-    helpMessage += "╠❂➣ %i. " % num + key + "Swelcome: text\n"
+    helpMessage += "â ââ£ %i. " % num + key + "Swelcome: text\n"
     num = (num+1)
-    helpMessage += "╠❂➣ %i. " % num + key + "Srepson: text\n"
+    helpMessage += "â ââ£ %i. " % num + key + "Srepson: text\n"
     num = (num+1)
-    helpMessage += "╠❂➣ %i. " % num + key + "Upbot 「ubah foto」\n"
+    helpMessage += "â ââ£ %i. " % num + key + "Upbot ãubah fotoã\n"
     num = (num+1)
-    helpMessage += "╠❂➣ %i. " % num + key + "Upgrup「ubah foto」\n"
+    helpMessage += "â ââ£ %i. " % num + key + "Upgrupãubah fotoã\n"
     num = (num+1)
-    helpMessage += "╠❂➣ %i. " % num + key + "1/7 up 「ubah foto」\n"
+    helpMessage += "â ââ£ %i. " % num + key + "1/7 up ãubah fotoã\n"
     num = (num+1)
-    helpMessage += "╠❂➣ %i. " % num + key + "1/7 in 「join grup」\n"
+    helpMessage += "â ââ£ %i. " % num + key + "1/7 in ãjoin grupã\n"
     num = (num+1)
-    helpMessage += "╠❂➣ %i. " % num + key + "Gruplist 1/7\n"
+    helpMessage += "â ââ£ %i. " % num + key + "Gruplist 1/7\n"
     num = (num+1)
-    helpMessage += "╠❂➣ %i. " % num + key + "Csider/off\n"
+    helpMessage += "â ââ£ %i. " % num + key + "Csider/off\n"
     num = (num+1)
-    helpMessage += "╠❂➣ %i. " % num + key + "Cpesan/off\n"
+    helpMessage += "â ââ£ %i. " % num + key + "Cpesan/off\n"
     num = (num+1)
-    helpMessage += "╠❂➣ %i. " % num + key + "Crespon\n"
+    helpMessage += "â ââ£ %i. " % num + key + "Crespon\n"
     num = (num+1)
-    helpMessage += "╠❂➣ %i. " % num + key + "Cwelcome\n"
+    helpMessage += "â ââ£ %i. " % num + key + "Cwelcome\n"
     num = (num+1)
-    helpMessage += "╠❂➣ %i. " % num + key + "Sticker「on/off\n"
+    helpMessage += "â ââ£ %i. " % num + key + "Stickerãon/off\n"
     num = (num+1)
-    helpMessage += "╠❂➣ %i. " % num + key + "「on/off」\n"
+    helpMessage += "â ââ£ %i. " % num + key + "ãon/offã\n"
     num = (num+1)
-    helpMessage += "╠❂➣ %i. " % num + key + "Unsend「on/off」\n"
+    helpMessage += "â ââ£ %i. " % num + key + "Unsendãon/offã\n"
     num = (num+1)
-    helpMessage += "╠❂➣ %i. " % num + key + "Autoblock「on/off」\n"
+    helpMessage += "â ââ£ %i. " % num + key + "Autoblockãon/offã\n"
     num = (num+1)
-    helpMessage += "╠❂➣ %i. " % num + key + "Welcome「on/off」\n"
+    helpMessage += "â ââ£ %i. " % num + key + "Welcomeãon/offã\n"
     num = (num+1)    
-    helpMessage += "┃ " + "├──────────────\n"
-    helpMessage += "┃ " + "╰──━━━━━━━━━━━━━━──\n"
-    helpMessage += "╰━━━━━━━━━━━━━━━━"
+    helpMessage += "â " + "âââââââââââââââ\n"
+    helpMessage += "â " + "â°ââââââââââââââââââ\n"
+    helpMessage += "â°ââââââââââââââââ"
     helpMessage += " Creator: https://line.me/ti/p/~denjaka_inex \n"
     return helpMessage
 
@@ -958,222 +948,222 @@ def helpbot():
     num = 1
     key = Setmain["keyCommand"]
     key = key.title()
-    helpMessage2 = "╭━━━━━━━━━━━━━━━━\n"
-    helpMessage2 += "┃ " + "╭───━━━━━━━━━━━━━━⍟─\n"
-    helpMessage2 += "┃" + " ├──━━━━━━━━━━━━━━──\n"
-    helpMessage2 += "┃" + " ├──────────────\n"
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Crot @\n"
+    helpMessage2 = "â­ââââââââââââââââ\n"
+    helpMessage2 += "â " + "â­âââââââââââââââââââ\n"
+    helpMessage2 += "â" + " âââââââââââââââââââ\n"
+    helpMessage2 += "â" + " âââââââââââââââ\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Crot @\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Cipok @ \n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Cipok @ \n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Mainkan @\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Mainkan @\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Invite/stay \n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Invite/stay \n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Bl \n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Bl \n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Ban all\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Ban all\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Unban all \n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Unban all \n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Refresh \n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Refresh \n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Gas\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Gas\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Killban \n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Killban \n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Spaminvite on \n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Spaminvite on \n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Spaminvite off \n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Spaminvite off \n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Banlist\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Banlist\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Ban all\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Ban all\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Clearban\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Clearban\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Adminexpl:on\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Adminexpl:on\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Admin:on @\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Admin:on @\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Admin:on\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Admin:on\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Adminexpl:on @\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Adminexpl:on @\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Owner:on\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Owner:on\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Staff:on\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Staff:on\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Staff:on @\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Staff:on @\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Staffexpl:on\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Staffexpl:on\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Staffexpl:on @\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Staffexpl:on @\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Bot:on\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Bot:on\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Bot:on @\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Bot:on @\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Botexpl:on\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Botexpl:on\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Botexpl:on @\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Botexpl:on @\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Ban:on @\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Ban:on @\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Ban:on\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Ban:on\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Unban:on @\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Unban:on @\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Unban:on\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Unban:on\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i ." % num + key + "Talkban:on @\n"
+    helpMessage2 += "â ââ£ %i ." % num + key + "Talkban:on @\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Talkban:on\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Talkban:on\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Untalkban:on @\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Untalkban:on @\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Untalkban:on\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Untalkban:on\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Talkbanlist\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Talkbanlist\n"
     num = (num+1)    
-    helpMessage2 += "╠❂➣ %i. " % num + key + "P o/f (protect)\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "P o/f (protect)\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Skurl on/off\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Skurl on/off\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Protect on/off\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Protect on/off\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Proall on/off\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Proall on/off\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Skinvite on/off\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Skinvite on/off\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Procancel on/off\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Procancel on/off\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "J o/f\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "J o/f\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + ".Bye/Bye[1/4]\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + ".Bye/Bye[1/4]\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Leave「Namagrup」\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "LeaveãNamagrupã\n"
     num = (num+1)    
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Kicker「in」\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Kickerãinã\n"
     num = (num+1)  
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Kicker「lv」\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Kickerãlvã\n"
     num = (num+1)    
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Infogrup「angka」\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Infogrupãangkaã\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Infomem「angka」\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Infomemãangkaã\n"
     num = (num+1)     
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Silentkiller [kickall]\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Silentkiller [kickall]\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Bubar [kickall]\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Bubar [kickall]\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Prank \n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Prank \n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Autojoin on/off\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Autojoin on/off\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Jointicket on/off\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Jointicket on/off\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "Autoadd on/off\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "Autoadd on/off\n"
     num = (num+1)
-    helpMessage2 += "╠❂➣ %i. " % num + key + "leave on/off\n"
+    helpMessage2 += "â ââ£ %i. " % num + key + "leave on/off\n"
     num = (num+1)
-    helpMessage2 += "┃ " + "├──────────────\n"
-    helpMessage2 += "┃ " + "╰──━━━━━━━━━━━━━━⍟──\n"
-    helpMessage2 += "╰━━━━━━━━━━━━━━━━"
-    helpMessage2 += " My ID LINE : 〘 https://line.me/ti/p/~denjaka_inex 〙\n"
+    helpMessage2 += "â " + "âââââââââââââââ\n"
+    helpMessage2 += "â " + "â°âââââââââââââââââââ\n"
+    helpMessage2 += "â°ââââââââââââââââ"
+    helpMessage2 += " My ID LINE : ã https://line.me/ti/p/~denjaka_inex ã\n"
     return helpMessage2
     
 def helpbot1():
     num = 1
     key = Setmain["keyCommand"]
     key = key.title()
-    helpMessage3 = "╭━━━━━━━━━━━━━━━━\n"
-    helpMessage3 += "┃ " + "╭───━━━━━━━━━━━━━━⍟─\n"
-    helpMessage3 += "┃" + " ├──━━━━━━━━━━━━━━──\n"
-    helpMessage3 += "┃" + " ├──────────────\n"
-    helpMessage3 += "╠❂➣ %i. " % num + key + "Meme@1@k1@k2 \n"
+    helpMessage3 = "â­ââââââââââââââââ\n"
+    helpMessage3 += "â " + "â­âââââââââââââââââââ\n"
+    helpMessage3 += "â" + " âââââââââââââââââââ\n"
+    helpMessage3 += "â" + " âââââââââââââââ\n"
+    helpMessage3 += "â ââ£ %i. " % num + key + "Meme@1@k1@k2 \n"
     num = (num+1)
-    helpMessage3 += "╠❂➣ %i. " % num + key + "Getmeme \n"
+    helpMessage3 += "â ââ£ %i. " % num + key + "Getmeme \n"
     num = (num+1)
-    helpMessage3 += "╠❂➣ %i. " % num + key + "Meme k1|k2|no \n"
+    helpMessage3 += "â ââ£ %i. " % num + key + "Meme k1|k2|no \n"
     num = (num+1)  
-    helpMessage3 += "╠❂➣ %i. " % num + key + "Smule: link \n"
+    helpMessage3 += "â ââ£ %i. " % num + key + "Smule: link \n"
     num = (num+1)
-    helpMessage3 += "╠❂➣ %i. " % num + key + "Profilsmule: id \n"
+    helpMessage3 += "â ââ£ %i. " % num + key + "Profilsmule: id \n"
     num = (num+1)
-    helpMessage3 += "╠❂➣ %i. " % num + key + "tafsirquran no|no \n"
+    helpMessage3 += "â ââ£ %i. " % num + key + "tafsirquran no|no \n"
     num = (num+1)
-    helpMessage3 += "╠❂➣ %i. " % num + key + "Lihat no|no\n"
+    helpMessage3 += "â ââ£ %i. " % num + key + "Lihat no|no\n"
     num = (num+1)
-    helpMessage3 += "╠❂➣ %i. " % num + key + "Sukaku @ \n"
+    helpMessage3 += "â ââ£ %i. " % num + key + "Sukaku @ \n"
     num = (num+1)
-    helpMessage3 += "╠❂➣ %i. " % num + key + "Get-mimpi「Query」\n"
+    helpMessage3 += "â ââ£ %i. " % num + key + "Get-mimpiãQueryã\n"
     num = (num+1)
-    helpMessage3 += "╠❂➣ %i. " % num + key + "Get-apk「Query」\n"
+    helpMessage3 += "â ââ£ %i. " % num + key + "Get-apkãQueryã\n"
     num = (num+1)
-    helpMessage3 += "╠❂➣ %i. " % num + key + "Ytmp4: Judul Video \n"
+    helpMessage3 += "â ââ£ %i. " % num + key + "Ytmp4: Judul Video \n"
     num = (num+1)
-    helpMessage3 += "╠❂➣ %i. " % num + key + "Changedual \n"
+    helpMessage3 += "â ââ£ %i. " % num + key + "Changedual \n"
     num = (num+1)
-    helpMessage3 += "╠❂➣ %i. " % num + key + "Changedualurl: •link• \n"
+    helpMessage3 += "â ââ£ %i. " % num + key + "Changedualurl: â¢linkâ¢ \n"
     num = (num+1)
-    helpMessage3 += "╠❂➣ %i. " % num + key + "Img food: produk \n"
+    helpMessage3 += "â ââ£ %i. " % num + key + "Img food: produk \n"
     num = (num+1)
-    helpMessage3 += "╠❂➣ %i. " % num + key + "Profilesmule: id \n"
+    helpMessage3 += "â ââ£ %i. " % num + key + "Profilesmule: id \n"
     num = (num+1)
-    helpMessage3 += "╠❂➣ %i. " % num + key + "Profileig: id \n"
+    helpMessage3 += "â ââ£ %i. " % num + key + "Profileig: id \n"
     num = (num+1)
-    helpMessage3 += "╠❂➣ %i. " % num + key + "Addimg •nama• \n"
+    helpMessage3 += "â ââ£ %i. " % num + key + "Addimg â¢namaâ¢ \n"
     num = (num+1)
-    helpMessage3 += "╠❂➣ %i. " % num + key + "Dellimg •nama• \n"
+    helpMessage3 += "â ââ£ %i. " % num + key + "Dellimg â¢namaâ¢ \n"
     num = (num+1)
-    helpMessage3 += "╠❂➣ %i. " % num + key + "Listimg •nama• \n"
+    helpMessage3 += "â ââ£ %i. " % num + key + "Listimg â¢namaâ¢ \n"
     num = (num+1)
-    helpMessage3 += "╠❂➣ %i. " % num + key + "Addvideo •nama• \n"
+    helpMessage3 += "â ââ£ %i. " % num + key + "Addvideo â¢namaâ¢ \n"
     num = (num+1)
-    helpMessage3 += "╠❂➣ %i. " % num + key + "Dellvideo •nama• \n"
+    helpMessage3 += "â ââ£ %i. " % num + key + "Dellvideo â¢namaâ¢ \n"
     num = (num+1)
-    helpMessage3 += "╠❂➣ %i. " % num + key + "Listvideo •nama• \n"
+    helpMessage3 += "â ââ£ %i. " % num + key + "Listvideo â¢namaâ¢ \n"
     num = (num+1)
-    helpMessage3 += "╠❂➣ %i. " % num + key + "Addsticker •nama• \n"
+    helpMessage3 += "â ââ£ %i. " % num + key + "Addsticker â¢namaâ¢ \n"
     num = (num+1)
-    helpMessage3 += "╠❂➣ %i. " % num + key + "Dellsticker •nama• \n"
+    helpMessage3 += "â ââ£ %i. " % num + key + "Dellsticker â¢namaâ¢ \n"
     num = (num+1)
-    helpMessage3 += "╠❂➣ %i. " % num + key + "Liststicker •nama• \n"
+    helpMessage3 += "â ââ£ %i. " % num + key + "Liststicker â¢namaâ¢ \n"
     num = (num+1)
-    helpMessage3 += "╠❂➣ %i. " % num + key + "Addaudio •nama• \n"
+    helpMessage3 += "â ââ£ %i. " % num + key + "Addaudio â¢namaâ¢ \n"
     num = (num+1)
-    helpMessage3 += "╠❂➣ %i. " % num + key + "Dellaudio •nama• \n"
+    helpMessage3 += "â ââ£ %i. " % num + key + "Dellaudio â¢namaâ¢ \n"
     num = (num+1)
-    helpMessage3 += "╠❂➣ %i. " % num + key + "Listaudio •nama• \n"
+    helpMessage3 += "â ââ£ %i. " % num + key + "Listaudio â¢namaâ¢ \n"
     num = (num+1)
-    helpMessage3 += "┃ " + "├──────────────\n"
-    helpMessage3 += "┃ " + "╰──━━━━━━━━━━━━━━⍟──\n"
-    helpMessage3 += "╰━━━━━━━━━━━━━━━━"
-    helpMessage3 += " My ID LINE : 〘 https://line.me/ti/p/~denjaka_inex 〙\n"
+    helpMessage3 += "â " + "âââââââââââââââ\n"
+    helpMessage3 += "â " + "â°âââââââââââââââââââ\n"
+    helpMessage3 += "â°ââââââââââââââââ"
+    helpMessage3 += " My ID LINE : ã https://line.me/ti/p/~denjaka_inex ã\n"
     return helpMessage3
     
 def helpbot2():
     num = 1
     key = Setmain["keyCommand"]
     key = key.title()
-    helpMessage4 = "╭━━━━━━━━━━━━━━━━\n"
-    helpMessage4 += "┃ " + "╭───━━━━━━━━━━━━━━⍟─\n"
-    helpMessage4 += "┃" + " ├──━━━━━━━━━━━━━━──\n"
-    helpMessage4 += "┃" + " ├──────────────\n"
-    helpMessage4 += "╠❂➣ %i. " % num + key + "Help\n"
+    helpMessage4 = "â­ââââââââââââââââ\n"
+    helpMessage4 += "â " + "â­âââââââââââââââââââ\n"
+    helpMessage4 += "â" + " âââââââââââââââââââ\n"
+    helpMessage4 += "â" + " âââââââââââââââ\n"
+    helpMessage4 += "â ââ£ %i. " % num + key + "Help\n"
     num = (num+1)
-    helpMessage4 += "╠❂➣ %i. " % num + key + "Menu\n"
+    helpMessage4 += "â ââ£ %i. " % num + key + "Menu\n"
     num = (num+1)
-    helpMessage4 += "╠❂➣ %i. " % num + key + "Media\n"
+    helpMessage4 += "â ââ£ %i. " % num + key + "Media\n"
     num = (num+1)
-    helpMessage4 += "╠❂➣ %i. " % num + key + "Helpkick\n"
+    helpMessage4 += "â ââ£ %i. " % num + key + "Helpkick\n"
     num = (num+1)
-    helpMessage4 += "╠❂➣ %i. " % num + key + "Settings\n"
+    helpMessage4 += "â ââ£ %i. " % num + key + "Settings\n"
     num = (num+1)
-    helpMessage4 += "┃ " + "├──────────────\n"
-    helpMessage4 += "┃ " + "╰──━━━━━━━━━━━━━━⍟──\n"
-    helpMessage4 += "╰━━━━━━━━━━━━━━━━"
-    helpMessage4 += " My ID LINE : 〘 https://line.me/ti/p/~denjaka_inex 〙\n"
+    helpMessage4 += "â " + "âââââââââââââââ\n"
+    helpMessage4 += "â " + "â°âââââââââââââââââââ\n"
+    helpMessage4 += "â°ââââââââââââââââ"
+    helpMessage4 += " My ID LINE : ã https://line.me/ti/p/~denjaka_inex ã\n"
     return helpMessage4
 def sendTextTemplate7(to, text):
     warna1 = ("#1AE501","#0108E5","#E50AE0","#E50F00","#DEE500","#47E1E5","#C82EF8")
@@ -1956,21 +1946,21 @@ def sendWelcome(to,text):
             }
         }
     cl.sendFlex(to, data)
-warKey = """╭━━━━━━━━━━━━━━━━━━━━
-┃ ╔══════════════════━━━
-┃ ║  BY BOT : INEXBOTS
-┃ ╚══════════════════━━━
-├──━━━━━━━━━━━━━━──━━━
-┃ ╔══════════════════━━━
-┃ ║  LIKE DONE 
-┃ ║  COMMENT DONE 
-┃ ║  INEXBOTS  
-┃ ╚══════════════════━━━
-├──━━━━━━━━━━━━━━──━━━
-┃ ╔══════════════════━━━
-┃ ║  http://line.me/ti/p/~denjaka_inex
-┃ ╚══════════════════━━━
-╰━━━━━━━━━━━━━━━━━━━━━
+warKey = """â­ââââââââââââââââââââ
+â ââââââââââââââââââââââ
+â â  BY BOT : INEXBOTS
+â ââââââââââââââââââââââ
+ââââââââââââââââââââââ
+â ââââââââââââââââââââââ
+â â  LIKE DONE 
+â â  COMMENT DONE 
+â â  INEXBOTS  
+â ââââââââââââââââââââââ
+ââââââââââââââââââââââ
+â ââââââââââââââââââââââ
+â â  http://line.me/ti/p/~denjaka_inex
+â ââââââââââââââââââââââ
+â°âââââââââââââââââââââ
 """
 def bot(op):
     global time
@@ -2569,9 +2559,9 @@ def bot(op):
                                 zx = ""
                                 zxc = ""
                                 zx2 = []
-                                xpesan = "╔══════════════════━━━\n║   Gambar Dihapus \n║ Pengirim : "
-                                ret_ = "║ Nama Grup : {}".format(str(ginfo.name))
-                                ret_ += "\n║ Waktu Ngirim : {}\n╚══════════════════━━━".format(dt_to_str(cTime_to_datetime(msg_dict[msg_id]["createdTime"])))
+                                xpesan = "ââââââââââââââââââââââ\nâ   Gambar Dihapus \nâ Pengirim : "
+                                ret_ = "â Nama Grup : {}".format(str(ginfo.name))
+                                ret_ += "\nâ Waktu Ngirim : {}\nââââââââââââââââââââââ".format(dt_to_str(cTime_to_datetime(msg_dict[msg_id]["createdTime"])))
                                 ry = str(ryan.displayName)
                                 pesan = ''
                                 pesan2 = pesan+"@x \n"
@@ -2586,11 +2576,11 @@ def bot(op):
                            else:
                                 ginfo = cl.getGroup(at)
                                 ryan = cl.getContact(msg_dict[msg_id]["from"])
-                                ret_ =  "║Pesan Dihapus \n"
-                                ret_ += "║Pengirim : {}".format(str(ryan.displayName))
-                                ret_ += "\n║Nama Grup : {}".format(str(ginfo.name))
-                                ret_ += "\n║Waktu Ngirim : {}".format(dt_to_str(cTime_to_datetime(msg_dict[msg_id]["createdTime"])))
-                                ret_ += "\n║Pesannya : {}".format(str(msg_dict[msg_id]["text"]))
+                                ret_ =  "âPesan Dihapus \n"
+                                ret_ += "âPengirim : {}".format(str(ryan.displayName))
+                                ret_ += "\nâNama Grup : {}".format(str(ginfo.name))
+                                ret_ += "\nâWaktu Ngirim : {}".format(dt_to_str(cTime_to_datetime(msg_dict[msg_id]["createdTime"])))
+                                ret_ += "\nâPesannya : {}".format(str(msg_dict[msg_id]["text"]))
                                 sendTextTemplate11(at, str(ret_))
                         del msg_dict[msg_id]
                 except Exception as e:
@@ -2913,7 +2903,7 @@ def bot(op):
                if msg.contentType == 7:
                  if wait["sticker"] == True:
                     msg.contentType = 0
-                    cl.sendMessage(msg.to,"Cek ID Sticker\n\nSTKID : " + msg.contentMetadata["STKID"] + "\nSTKPKGID : " + msg.contentMetadata["STKPKGID"] + "\nSTKVER : " + msg.contentMetadata["STKVER"]+ "\n\n「Link Sticker」" + "\nline://shop/detail/" + msg.contentMetadata["STKPKGID"])
+                    cl.sendMessage(msg.to,"Cek ID Sticker\n\nSTKID : " + msg.contentMetadata["STKID"] + "\nSTKPKGID : " + msg.contentMetadata["STKPKGID"] + "\nSTKVER : " + msg.contentMetadata["STKVER"]+ "\n\nãLink Stickerã" + "\nline://shop/detail/" + msg.contentMetadata["STKPKGID"])
                if msg.contentType == 13:
                  if wait["contact"] == True:
                     msg.contentType = 0
@@ -3012,32 +3002,32 @@ def bot(op):
                             ret_ = " Detail Postingan "
                             if msg.contentMetadata["serviceType"] == "GB":
                                 contact = cl.getContact(sender)
-                                auth = "\n🔴 Penulis : {}".format(str(contact.displayName))
+                                auth = "\nð´ Penulis : {}".format(str(contact.displayName))
                             else:
-                                auth = "\n🔴 Penulis : {}".format(str(msg.contentMetadata["serviceName"]))
+                                auth = "\nð´ Penulis : {}".format(str(msg.contentMetadata["serviceName"]))
                             ret_ += auth
                             if "stickerId" in msg.contentMetadata:
-                                stck = "\n🔴 Stiker : https://line.me/R/shop/detail/{}".format(str(msg.contentMetadata["packageId"]))
+                                stck = "\nð´ Stiker : https://line.me/R/shop/detail/{}".format(str(msg.contentMetadata["packageId"]))
                                 ret_ += stck
                             if "mediaOid" in msg.contentMetadata:
                                 object_ = msg.contentMetadata["mediaOid"].replace("svc=myhome|sid=h|","")
                                 if msg.contentMetadata["mediaType"] == "V":
                                     if msg.contentMetadata["serviceType"] == "GB":
-                                        ourl = "\n🔴 Objek URL : https://obs-us.line-apps.com/myhome/h/download.nhn?tid=612w&{}".format(str(msg.contentMetadata["mediaOid"]))
-                                        murl = "\n🔴 Media URL : https://obs-us.line-apps.com/myhome/h/download.nhn?{}".format(str(msg.contentMetadata["mediaOid"]))
+                                        ourl = "\nð´ Objek URL : https://obs-us.line-apps.com/myhome/h/download.nhn?tid=612w&{}".format(str(msg.contentMetadata["mediaOid"]))
+                                        murl = "\nð´ Media URL : https://obs-us.line-apps.com/myhome/h/download.nhn?{}".format(str(msg.contentMetadata["mediaOid"]))
                                     else:
-                                        ourl = "\n🔴 Objek URL : https://obs-us.line-apps.com/myhome/h/download.nhn?tid=612w&{}".format(str(object_))
-                                        murl = "\n🔴 Media URL : https://obs-us.line-apps.com/myhome/h/download.nhn?{}".format(str(object_))
+                                        ourl = "\nð´ Objek URL : https://obs-us.line-apps.com/myhome/h/download.nhn?tid=612w&{}".format(str(object_))
+                                        murl = "\nð´ Media URL : https://obs-us.line-apps.com/myhome/h/download.nhn?{}".format(str(object_))
                                     ret_ += murl
                                 else:
                                     if msg.contentMetadata["serviceType"] == "GB":
-                                        ourl = "\n🔴 Objek URL : https://obs-us.line-apps.com/myhome/h/download.nhn?tid=612w&{}".format(str(msg.contentMetadata["mediaOid"]))
+                                        ourl = "\nð´ Objek URL : https://obs-us.line-apps.com/myhome/h/download.nhn?tid=612w&{}".format(str(msg.contentMetadata["mediaOid"]))
                                     else:
-                                        ourl = "\n🔴 Objek URL : https://obs-us.line-apps.com/myhome/h/download.nhn?tid=612w&{}".format(str(object_))
+                                        ourl = "\nð´ Objek URL : https://obs-us.line-apps.com/myhome/h/download.nhn?tid=612w&{}".format(str(object_))
                                 ret_ += ourl
                             if "text" in msg.contentMetadata:
-                                text = "\n🔴 Tulisan : {}".format(str(msg.contentMetadata["text"]))
-                                purl = "\n🔴 Post URL : {}".format(str(msg.contentMetadata["postEndUrl"]).replace("line://","https://line.me/R/"))
+                                text = "\nð´ Tulisan : {}".format(str(msg.contentMetadata["text"]))
+                                purl = "\nð´ Post URL : {}".format(str(msg.contentMetadata["postEndUrl"]).replace("line://","https://line.me/R/"))
                                 ret_ += purl
                                 ret_ += text
                             sendTextTemplate11(to, str(ret_))
@@ -3075,10 +3065,10 @@ def bot(op):
                         data = soup.select("[class~=mdBtn01Txt]")[0].text
                         if data == 'Lihat Produk Lain':
                             ret_ = " Sticker Info "
-                            ret_ += "\n🔴 STICKER ID : {}".format(stk_id)
-                            ret_ += "\n🔴 STICKER PACKAGES ID : {}".format(pkg_id)
-                            ret_ += "\n🔴 STICKER VERSION : {}".format(stk_ver)
-                            ret_ += "\n🔴STICKER URL : line://shop/detail/{}".format(pkg_id)
+                            ret_ += "\nð´ STICKER ID : {}".format(stk_id)
+                            ret_ += "\nð´ STICKER PACKAGES ID : {}".format(pkg_id)
+                            ret_ += "\nð´ STICKER VERSION : {}".format(stk_ver)
+                            ret_ += "\nð´STICKER URL : line://shop/detail/{}".format(pkg_id)
                             sendTextTemplate44(msg.to, str(ret_))
                             query = int(stk_id)
                             if type(query) == int:
@@ -3087,13 +3077,13 @@ def bot(op):
                                cl.sendImage(msg.to,path)
                         else:
                             ret_ = " Sticker Info "
-                            ret_ += "\n🔴 PRICE : "+soup.findAll('p', attrs={'class':'mdCMN08Price'})[0].text
-                            ret_ += "\n🔴 AUTHOR : "+soup.select("a[href*=/stickershop/author]")[0].text
-                            ret_ += "\n🔴 STICKER ID : {}".format(str(stk_id))
-                            ret_ += "\n🔴 STICKER PACKAGES ID : {}".format(str(pkg_id))
-                            ret_ += "\n🔴 STICKER VERSION : {}".format(str(stk_ver))
-                            ret_ += "\n🔴 STICKER URL : line://shop/detail/{}".format(str(pkg_id))
-                            ret_ += "\n🔴 DESCRIPTION :\n"+soup.findAll('p', attrs={'class':'mdCMN08Desc'})[0].text
+                            ret_ += "\nð´ PRICE : "+soup.findAll('p', attrs={'class':'mdCMN08Price'})[0].text
+                            ret_ += "\nð´ AUTHOR : "+soup.select("a[href*=/stickershop/author]")[0].text
+                            ret_ += "\nð´ STICKER ID : {}".format(str(stk_id))
+                            ret_ += "\nð´ STICKER PACKAGES ID : {}".format(str(pkg_id))
+                            ret_ += "\nð´ STICKER VERSION : {}".format(str(stk_ver))
+                            ret_ += "\nð´ STICKER URL : line://shop/detail/{}".format(str(pkg_id))
+                            ret_ += "\nð´ DESCRIPTION :\n"+soup.findAll('p', attrs={'class':'mdCMN08Desc'})[0].text
                             sendTextTemplate2(msg.to, str(ret_))
                             query = int(stk_id)
                             if type(query) == int:
@@ -3402,50 +3392,50 @@ def bot(op):
                             if msg._from in owner or msg._from in admin:
                                 tz = pytz.timezone("Asia/Jakarta")
                                 timeNow = datetime.now(tz=tz)
-                                md = "   ⏣⎊ SETTING MENU ⎊⏣\n\n"
-                                if wait["sticker"] == True: md+="【✔】Sticker\n"
-                                else: md+="【✘】Sticker\n"
-                                if wait["contact"] == True: md+="【✔】Contact\n"
-                                else: md+="【✘】Contact\n"
-                                if wait["detectMention"] == True: md+="【✔】Respon\n"
-                                else: md+="【✘】Respon\n"
-                                if wait["detectMention2"] == True: md+="【✔】Respon2\n"
-                                else: md+="【✘】Respon2\n"
-                                if wait["arespon"] == True: md+="【✔】Respon pm\n"
-                                else: md+="【✘】Respon pm\n"
-                                if wait["autoJoin"] == True: md+="【✔】Autojoin\n"
-                                else: md+="【✘】Autojoin\n"
-                                if settings["autoJoinTicket"] == True: md+="【✔】Jointicket\n"
-                                else: md+="【✘】Jointicket\n"
-                                if settings["unsendMessage"] == True: md+="【✔】Unsend\n"
-                                else: md+="【✘】Unsend\n"
-                                if wait["autoAdd"] == True: md+="【✔】Autoadd\n"
-                                else: md+="【✘】Autoadd\n"
-                                if msg.to in welcome: md+="【✔】Welcome\n"
-                                else: md+="【✘】Welcome\n"
-                                if wait["autoLeave"] == True: md+="【✔】Autoleave\n"
-                                else: md+="【✘】Autoleave\n"
-                                if msg.to in protect["pqr"]: md+="【✔】Skurl\n"
-                                else: md+="【✘】Skurl\n"
-                                if msg.to in protect["proall"]: md+="【✔】Proall\n"
-                                else: md+="【✘】Proall\n"
-                                if msg.to in protect["protect"]: md+="【✔】Protect\n"
-                                else: md+="【✘】Protect\n"
-                                if msg.to in protect["pinv"]: md+="【✔】Skinvite\n"
-                                else: md+="【✘】Skinvite\n"
-                                if msg.to in protect["antijs"]: md+="【✔】Js\n"
-                                else: md+="【✘】Js\n"
-                                if msg.to in ghost: md+="【✔】Ghost\n"
-                                else: md+="【✘】Ghost\n"
-                                if msg.to in protectcancel: md+="【✔】Procancel\n"
-                                else: md+="【✘】Procancel\n"
+                                md = "   â£â SETTING MENU ââ£\n\n"
+                                if wait["sticker"] == True: md+="ãâãSticker\n"
+                                else: md+="ãâãSticker\n"
+                                if wait["contact"] == True: md+="ãâãContact\n"
+                                else: md+="ãâãContact\n"
+                                if wait["detectMention"] == True: md+="ãâãRespon\n"
+                                else: md+="ãâãRespon\n"
+                                if wait["detectMention2"] == True: md+="ãâãRespon2\n"
+                                else: md+="ãâãRespon2\n"
+                                if wait["arespon"] == True: md+="ãâãRespon pm\n"
+                                else: md+="ãâãRespon pm\n"
+                                if wait["autoJoin"] == True: md+="ãâãAutojoin\n"
+                                else: md+="ãâãAutojoin\n"
+                                if settings["autoJoinTicket"] == True: md+="ãâãJointicket\n"
+                                else: md+="ãâãJointicket\n"
+                                if settings["unsendMessage"] == True: md+="ãâãUnsend\n"
+                                else: md+="ãâãUnsend\n"
+                                if wait["autoAdd"] == True: md+="ãâãAutoadd\n"
+                                else: md+="ãâãAutoadd\n"
+                                if msg.to in welcome: md+="ãâãWelcome\n"
+                                else: md+="ãâãWelcome\n"
+                                if wait["autoLeave"] == True: md+="ãâãAutoleave\n"
+                                else: md+="ãâãAutoleave\n"
+                                if msg.to in protect["pqr"]: md+="ãâãSkurl\n"
+                                else: md+="ãâãSkurl\n"
+                                if msg.to in protect["proall"]: md+="ãâãProall\n"
+                                else: md+="ãâãProall\n"
+                                if msg.to in protect["protect"]: md+="ãâãProtect\n"
+                                else: md+="ãâãProtect\n"
+                                if msg.to in protect["pinv"]: md+="ãâãSkinvite\n"
+                                else: md+="ãâãSkinvite\n"
+                                if msg.to in protect["antijs"]: md+="ãâãJs\n"
+                                else: md+="ãâãJs\n"
+                                if msg.to in ghost: md+="ãâãGhost\n"
+                                else: md+="ãâãGhost\n"
+                                if msg.to in protectcancel: md+="ãâãProcancel\n"
+                                else: md+="ãâãProcancel\n"
                                 sendTextTemplate13(msg.to, md+"\nDate : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\nTime  "+ datetime.strftime(timeNow,'%H:%M:%S')+" ")                              
                                 
 
                         elif cmd == "about" or cmd == "informasi":
                           if wait["selfbot"] == True:
                             if msg._from in owner or msg._from in admin:
-                               sendMention(msg.to, sender, "🔴My Creator\n\n")
+                               sendMention(msg.to, sender, "ð´My Creator\n\n")
                                cl.sendMessage(msg.to, None, contentMetadata={'mid': mid}, contentType=13)
 
                         elif cmd == "help2":
@@ -3983,7 +3973,7 @@ def bot(op):
                                       cl.rejectGroupInvitation(gid)
                                   cl.sendMessage(to, "Succes reject {} ".format(str(len(ginvited))))
                               else:
-                                  cl.sendMessage(to, "sᴇᴍᴜᴀ ɢʀᴜᴘ sᴜᴅᴀʜ ᴅɪʙᴀᴛᴀʟᴋᴀɴ")
+                                  cl.sendMessage(to, "sá´á´á´á´ É¢Êá´á´ sá´á´á´Ê á´ÉªÊá´á´á´Êá´á´É´")
 
                         elif text.lower() == "hapuschat":
                           if wait["selfbot"] == True:
@@ -4156,7 +4146,7 @@ def bot(op):
                                pesan = text.replace(sep[0] + " ","")
                                saya = cl.getGroupIdsJoined()
                                for group in saya:
-                                   #cl.sendMessage(group,"🔴Broadcast \n\n" + str(pesan))
+                                   #cl.sendMessage(group,"ð´Broadcast \n\n" + str(pesan))
                                    data = {
         "type": "template",
         "altText": "!kickall",
@@ -4166,7 +4156,7 @@ def bot(op):
             "columns": [
                 {
                     "thumbnailImageUrl": "https://scontent.fcgk8-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/51689146_2326064860750957_3568131342002552832_o.jpg?_nc_cat=100&efg=eyJpIjoiYiJ9&_nc_eui2=AeEKUakDYnXikuMkE8vPPZhxEuKQRqPyo08BbWoruGL-DN9mYH2NmCnik886MGJCiMS8D7ZSUmabSAcRk7S3_GwwhAIKCVBmiq32OaYa0XaV-w&_nc_ht=scontent.fcgk8-1.fna&oh=18937dc8439c5fdf7c9de33c6f00fad6&oe=5D0231F5",
-                    "title": "🔴Broadcast🔴 ",
+                    "title": "ð´Broadcastð´ ",
                     "text": str(pesan),
                     "actions": [
                         {
@@ -4219,7 +4209,7 @@ def bot(op):
                         elif text.lower() == "sname":
                           if wait["selfbot"] == True:
                             if msg._from in owner or msg._from in admin:
-                               cl.sendMessage(msg.to, "🔴 Sname \n\n" + str(Setmain["keyCommand"]) + " ")
+                               cl.sendMessage(msg.to, "ð´ Sname \n\n" + str(Setmain["keyCommand"]) + " ")
                                
                         elif text.lower() == "mykey":
                           if wait["selfbot"] == True:
@@ -4252,7 +4242,7 @@ def bot(op):
                                    sendTextTemplate(msg.to, "Succes change Sname")
                                else:
                                    Setmain["keyCommand"] = str(key).lower()
-                                   sendTextTemplate(msg.to, "🔴Sname change \n\nSname succes change to {}".format(str(key).lower()))
+                                   sendTextTemplate(msg.to, "ð´Sname change \n\nSname succes change to {}".format(str(key).lower()))
                         #elif text.lower() == "yasin" or text.lower() == "yasinan":
                             #sendTextTemplate(msg. to, yasin1)
                             #sendTextTemplate(msg. to, yasin2)
@@ -5041,7 +5031,7 @@ def bot(op):
                                    a = a + 1
                                    end = "\n"
                                    ma += "" + str(a) + ". " +G.displayName+ "\n"
-                               sendTextTemplate(msg.to,"🔴FRIEND LIST\n\n"+ma+"\nTotal"+str(len(gid))+"Friends")
+                               sendTextTemplate(msg.to,"ð´FRIEND LIST\n\n"+ma+"\nTotal"+str(len(gid))+"Friends")
 
                         elif cmd == "glist":
                           if wait["selfbot"] == True:
@@ -5327,7 +5317,7 @@ def bot(op):
                                     a = a + 1
                                     end = '\n'
                                     ma += str(a) + ". " +cl.getContact(m_id).displayName + "\n"
-                                sendTextTemplate(msg.to,"🔴Botlist🔴\n\n\n"+ma+"\n%s Bots" %(str(len(Bots))))
+                                sendTextTemplate(msg.to,"ð´Botlistð´\n\n\n"+ma+"\n%s Bots" %(str(len(Bots))))
 
                         elif cmd == "stafflist":
                           if wait["selfbot"] == True:
@@ -5350,7 +5340,7 @@ def bot(op):
                                     c = c + 1
                                     end = '\n'
                                     mc += str(c) + ". " +cl.getContact(m_id).displayName + "\n"
-                                sendTextTemplate(msg.to,"🔴Adminlist🔴\n\n🔴Owner\n"+ma+"\n🔴Admin\n"+mb+"\n🔴Staff:\n"+mc+"\n%s Adminlist" %(str(len(owner)+len(admin)+len(staff))))
+                                sendTextTemplate(msg.to,"ð´Adminlistð´\n\nð´Owner\n"+ma+"\nð´Admin\n"+mb+"\nð´Staff:\n"+mc+"\n%s Adminlist" %(str(len(owner)+len(admin)+len(staff))))
 
                         elif cmd == "protectlist":
                           if wait["selfbot"] == True:
@@ -5404,7 +5394,7 @@ def bot(op):
                                     g = g + 1
                                     end = '\n'
                                     mg += str(g) + ". " +cl.getGroup(group).name + "\n"
-                                sendTextTemplate(msg.to,"🔴SETTING PROTECT 🔴\n\n🔒Proqr :\n"+ma+"\n🔒Proinvit:\n"+mb+"\n🔒ProAntikicker:\n"+mc+"\n🔒Protect Cancel:\n"+md+"\n🔒Protect:\n"+me+"\n🔒ProAll:\n"+mf+"\n🔒Ghost:\n"+mg+"\n\n🔴Protectlist %s Grup protect🔴" %(str(len(protect["pqr"])+len(protect["pinv"])+len(protect["antijs"])+len(protectcancel)+len(protect["protect"])+len(protect["proall"])+len(ghost))))
+                                sendTextTemplate(msg.to,"ð´SETTING PROTECT ð´\n\nðProqr :\n"+ma+"\nðProinvit:\n"+mb+"\nðProAntikicker:\n"+mc+"\nðProtect Cancel:\n"+md+"\nðProtect:\n"+me+"\nðProAll:\n"+mf+"\nðGhost:\n"+mg+"\n\nð´Protectlist %s Grup protectð´" %(str(len(protect["pqr"])+len(protect["pinv"])+len(protect["antijs"])+len(protectcancel)+len(protect["protect"])+len(protect["proall"])+len(ghost))))
 #====================================================================                            
                         elif cmd == "skill":
                             if msg._from in admin or msg._from in owner:
@@ -5412,11 +5402,11 @@ def bot(op):
                                except:has = "NOT"
                                try:cl.kickoutFromGroup(to, ["u45882d0ead1703855dbc60d40e37bec7"]);has1 = "OK"
                                except:has1 = "NOT"
-                               if has == "OK":sil = "❂ full 99%"
-                               else:sil = "❂ Low 0,20%"
-                               if has1 == "OK":sil1 = "❂ full 90%"
-                               else:sil1 = "❂ Low 0,3%"
-                               sendTextTemplate(to, "Status:\n\n❂Kick : {} \n❂Invite : {}".format(sil1,sil))
+                               if has == "OK":sil = "â full 99%"
+                               else:sil = "â Low 0,20%"
+                               if has1 == "OK":sil1 = "â full 90%"
+                               else:sil1 = "â Low 0,3%"
+                               sendTextTemplate(to, "Status:\n\nâKick : {} \nâInvite : {}".format(sil1,sil))
 
                         elif cmd.startswith("leave "):
                             if msg._from in admin or msg._from in owner:
@@ -5442,7 +5432,7 @@ def bot(op):
                                 get_contact_time_start = time.time()
                                 get_contact = cl.getContact(mid)
                                 get_contact_time = time.time() - get_contact_time_start
-                                sendTextTemplate(msg.to, "●Time Respon●\n\n ●Get Profile\n   %.10f\n ●Get Contact\n   %.10f\n ●Get Group\n   %.10f" % (get_profile_time/3,get_contact_time/3,get_group_time/3))
+                                sendTextTemplate(msg.to, "âTime Responâ\n\n âGet Profile\n   %.10f\n âGet Contact\n   %.10f\n âGet Group\n   %.10f" % (get_profile_time/3,get_contact_time/3,get_group_time/3))
 
                         elif cmd == "speed" or cmd == "sp":
                           if wait["selfbot"] == True:
@@ -6403,7 +6393,7 @@ def bot(op):
                                 data = json.loads(data)
                                 info = data["info"]
                                 audio = data["audio"]
-                                hasil = "「 Hasil Musik 」\n"
+                                hasil = "ã Hasil Musik ã\n"
                                 hasil += "\nPenyanyi : {}".format(str(info["penyanyi"]))
                                 hasil += "\nJudul : {}".format(str(info["judul"]))
                                 hasil += "\nAlbum : {}".format(str(info["album"]))
@@ -6414,7 +6404,7 @@ def bot(op):
                                 cl.sendAudioWithURL(msg.to, str(audio["mp3"]))
                                 sendTextTemplate(msg.to, "Searching mp3 done..")
                             except Exception as error:
-                            	sendTextTemplate(msg.to, "「 Result Error 」\n" + str(error))
+                            	sendTextTemplate(msg.to, "ã Result Error ã\n" + str(error))
                         
                         elif cmd.startswith("profilesmule: "):
                           if msg._from in admin:    
@@ -6533,7 +6523,7 @@ def bot(op):
                                 r = s.get("http://lewatmana.com/cam/{}/bundaran-hi/".format(urllib.parse.quote(cct)))
                                 soup = BeautifulSoup(r.content, 'html5lib')
                                 try:
-                                    ret_ = "「 Informasi CCTV 」\nDaerah "
+                                    ret_ = "ã Informasi CCTV ã\nDaerah "
                                     ret_ += soup.select("[class~=cam-viewer-title]")[0].text
                                     ret_ += "\nCctv update per 5 menit"
                                     vid = soup.find('source')['src']
@@ -6557,7 +6547,7 @@ def bot(op):
                                 data = soup.findAll('dl', attrs={'class':'search-dl'})
                                 if len(cond) == 1:
                                     num = 0
-                                    ret_ = "「 Pencarian Aplikasi 」\n"
+                                    ret_ = "ã Pencarian Aplikasi ã\n"
                                     for apk in data:
                                         num += 1
                                         link = "https://apkpure.com"+apk.find('a')['href']
@@ -6607,10 +6597,10 @@ def bot(op):
                                data=json.loads(data)                                                                                                      
                                if data["hot_threads"] != []:
                                    no = 0
-                                   hasil = "「 Kaskus Search 」\n"
+                                   hasil = "ã Kaskus Search ã\n"
                                    for news in data["hot_threads"]:
                                         no += 1                  
-                                        hasil += "\n" + str(no) + ". Judul : " + str(news["title"]) + "\n • Deskripsi : " + str(news["detail"]) + "\n• Link: " + str(news["link"]) + "\n"
+                                        hasil += "\n" + str(no) + ". Judul : " + str(news["title"]) + "\n â¢ Deskripsi : " + str(news["detail"]) + "\nâ¢ Link: " + str(news["link"]) + "\n"
                                         hasil += "\n"
                                    cl.sendMessage(msg.to, str(hasil))
                                                            
@@ -6670,7 +6660,7 @@ def bot(op):
                             usia = data["data"]["usia"]
                             ultah = data["data"]["ultah"]
                             zodiak = data["data"]["zodiak"]
-                            cl.sendMessage(msg.to,"Informasi™\n\n"+"Date Of Birth : "+lahir+"\nAge : "+usia+"\nUltah : "+ultah+"\nZodiak : "+zodiak)
+                            cl.sendMessage(msg.to,"Informasiâ¢\n\n"+"Date Of Birth : "+lahir+"\nAge : "+usia+"\nUltah : "+ultah+"\nZodiak : "+zodiak)
                             
                         elif cmd.startswith("clone "):
                            if msg._from in admin:
@@ -6687,7 +6677,7 @@ def bot(op):
                                     zx = ""
                                     zxc = ""
                                     zx2 = []
-                                    xpesan =  "「 Clone Profile 」\nTarget nya "
+                                    xpesan =  "ã Clone Profile ã\nTarget nya "
                                     ret_ = "Berhasil clone profile target"
                                     ry = str(dhenza.displayName)
                                     pesan = ''
@@ -6710,7 +6700,7 @@ def bot(op):
                                   lineProfile.pictureStatus = str(myProfile["pictureStatus"])
                                   cl.updateProfileAttribute(8, lineProfile.pictureStatus)
                                   cl.updateProfile(lineProfile)
-                                  sendMention(msg.to, sender, "「 Restore Profile 」\nNama ", " \nBerhasil restore profile")
+                                  sendMention(msg.to, sender, "ã Restore Profile ã\nNama ", " \nBerhasil restore profile")
                               except:
                                   cl.sendMessage(msg.to, "Gagal restore profile")
                                   
@@ -7314,7 +7304,7 @@ def bot(op):
                                 wait["Talkwblacklist"] = False
                                 wait["Talkdblacklist"] = False
                                 sendTextTemplate(msg.to,"Prosess...")
-                                sendTextTemplate(msg.to,"Refresh done 💯")
+                                sendTextTemplate(msg.to,"Refresh done ð¯")
 
                         elif cmd == "admin" or text.lower() == 'contact admin':
                             if msg._from in owner or msg._from in admin or msg._from in staff:
@@ -7477,25 +7467,25 @@ def bot(op):
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 wait["invite"] = True
-                                sendMention(msg.to, sender, "「 Status Invite 」\nUser ", "\nSend a contact to invite,\nIf done -> Invite off")
+                                sendMention(msg.to, sender, "ã Status Invite ã\nUser ", "\nSend a contact to invite,\nIf done -> Invite off")
 
                         elif cmd == "invite off" or text.lower() == 'invite off':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 wait["invite"] = False
-                                sendMention(msg.to, sender, "「 Status Invite 」\nUser ", " \nInvited has been disabled")
+                                sendMention(msg.to, sender, "ã Status Invite ã\nUser ", " \nInvited has been disabled")
                                 
                         elif cmd == "timeline on" or text.lower() == 'timeline on':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 wait["Timeline"] = True
-                                sendMention(msg.to, sender, "「 Status Timeline 」\nUser ", "\nSend a post,\nIf done -> Timeline off")
+                                sendMention(msg.to, sender, "ã Status Timeline ã\nUser ", "\nSend a post,\nIf done -> Timeline off")
 
                         elif cmd == "timeline off" or text.lower() == 'timeline off':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 wait["Timeline"] = False
-                                sendMention(msg.to, sender, "「 Status Timeline 」\nUser ", " \nDeteksi timeline dinonaktifkan")
+                                sendMention(msg.to, sender, "ã Status Timeline ã\nUser ", " \nDeteksi timeline dinonaktifkan")
 
 #===========COMMAND BLACKLIST============#
                         elif cmd == "ban all":
@@ -7645,7 +7635,7 @@ def bot(op):
                                     a = a + 1
                                     end = '\n'
                                     ma += str(a) + ". " +cl.getContact(m_id).displayName + "\n"
-                                cl.sendMessage(msg.to," Talkban User\n\n"+ma+"\nTotal「%s」Talkban User" %(str(len(wait["Talkblacklist"]))))
+                                cl.sendMessage(msg.to," Talkban User\n\n"+ma+"\nTotalã%sãTalkban User" %(str(len(wait["Talkblacklist"]))))
 
                         elif cmd == "bl" or text.lower() == 'bl':
                           if wait["selfbot"] == True:
@@ -7662,7 +7652,7 @@ def bot(op):
                             if msg._from in owner or msg._from in admin:
                                 wait["blacklist"] = {}
                                 ragets = cl.getContacts(wait["blacklist"])
-                                mc = "۞➢「%i」Penjahat" % len(ragets)
+                                mc = "Ûâ¢ã%iãPenjahat" % len(ragets)
                                 sendTextTemplate(msg.to,"Succes Clearban " +mc)
 #===========COMMAND SET============#
                         elif msg.contentType == 16:
@@ -7786,7 +7776,7 @@ def bot(op):
                                  for ticket_id in n_links:
                                      group = cl.findGroupByTicket(ticket_id)
                                      cl.acceptGroupInvitationByTicket(group.id,ticket_id)
-                                     cl.sendMessage(msg.to, "Pᴀsᴜᴋᴀɴ Sɪʟᴇɴᴛᴷᶦˡˡᵉʳ ɢᴏ : %s" % str(group.name))
+                                     cl.sendMessage(msg.to, "Pá´sá´á´á´É´ SÉªÊá´É´á´á´·á¶¦Ë¡Ë¡áµÊ³ É¢á´ : %s" % str(group.name))
                                      group1 = cl.findGroupByTicket(ticket_id)
                                  for l in links:
                                      if l not in n_links:
