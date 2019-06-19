@@ -1768,7 +1768,7 @@ def help():
                   "╠☠•➤" + key + "Speed/Sp\n" + \
                   "╠☠•➤" + key + "Sprespon\n" + \
                   "╠☠•➤" + key + "Tag/Inex\n" + \
-                  "╠☠•➤" + key + "Tag grup:「No grup」\n" + \
+                  "╠☠•➤" + key + "Tag room:「No grup」\n" + \
                   "╠☠•➤" + key + "Ginfo\n" + \
                   "╠☠•➤" + key + "Open\n" + \
                   "╠☠•➤" + key + "Close\n" + \
@@ -2481,7 +2481,6 @@ def bot(op):
                    mentionees = mention['MENTIONEES']
                    for mention in mentionees:
                         if mention ['M'] in Bots:
-                           #cl.sendMessage(msg.to, wait["Respontag"])
                            warna1 = ("#1AE501","#0108E5","#E50AE0","#E50F00","#DEE500","#47E1E5","#C82EF8")
                            warnanya1 = random.choice(warna1)
                            data = {
@@ -2499,19 +2498,7 @@ def bot(op):
                         {
                             "type": "uri",
                             "label": "CREATOR",
-                            "uri": "https://line.me/ti/p/"+cl.getUserTicket().id
-                        }
-                    ]
-                },
-                {
-                    "thumbnailImageUrl": "https://scontent.fcgk8-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/51689146_2326064860750957_3568131342002552832_o.jpg?_nc_cat=100&efg=eyJpIjoiYiJ9&_nc_eui2=AeEKUakDYnXikuMkE8vPPZhxEuKQRqPyo08BbWoruGL-DN9mYH2NmCnik886MGJCiMS8D7ZSUmabSAcRk7S3_GwwhAIKCVBmiq32OaYa0XaV-w&_nc_ht=scontent.fcgk8-1.fna&oh=18937dc8439c5fdf7c9de33c6f00fad6&oe=5D0231F5",
-                    "title": "ɪɴᴇxʙᴏᴛs",
-                    "text": "☠•➤ ɪɴᴇxʙᴏᴛs.ʙᴏᴛʟɪɴᴇ \nᴠᴇʀ.8.14.2 ᴘʀᴏᴛᴇᴄᴛ",
-                    "actions": [
-                        {
-                            "type": "uri",
-                            "label": "ORDER",
-                            "uri": "line://app/1602687308-GXq4Vvk9/?type=text&text=price"
+                            "uri": "https://line.me/ti/p/~denjaka-inexx"
                         }
                       ]
                     }
@@ -2529,7 +2516,7 @@ def bot(op):
                         if mention ['M'] in Bots:
                            saints = cl.getContact(msg._from)
                            cl.sendMessage(msg.to,  wait["Respontag2"])
-                           cl.sendMessage(to, None, contentMetadata={"STKID":"50726910","STKPKGID":"11475","STKVER":"2"}, contentType=7)
+                           cl.sendMessage(to, None, contentMetadata={"STKID":"51626495","STKPKGID":"11538","STKVER":"1"}, contentType=7)
                            break
                if 'MENTION' in msg.contentMetadata.keys() != None:
                  if wait["Mentionkick"] == True:
@@ -2545,7 +2532,7 @@ def bot(op):
                if msg.contentType == 7:
                  if wait["sticker"] == True:
                     msg.contentType = 0
-                    cl.sendMessage(msg.to,"「Cek ID Sticker」\n☠•➤STKID : " + msg.contentMetadata["STKID"] + "\n☠•➤STKPKGID : " + msg.contentMetadata["STKPKGID"] + "\n☠•➤STKVER : " + msg.contentMetadata["STKVER"]+ "\n\n「Link Sticker」" + "\nline://shop/detail/" + msg.contentMetadata["STKPKGID"])
+                    sendTextTemplate3(msg.to,"「Cek ID Sticker」\n☠•➤STKID : " + msg.contentMetadata["STKID"] + "\n☠•➤STKPKGID : " + msg.contentMetadata["STKPKGID"] + "\n☠•➤STKVER : " + msg.contentMetadata["STKVER"]+ "\n\n「Link Sticker」" + "\nline://shop/detail/" + msg.contentMetadata["STKPKGID"])
                if msg.contentType == 13:
                  if wait["contact"] == True:
                     msg.contentType = 0
