@@ -57,7 +57,7 @@
                     "text": "aplikasi facebook lite",
                     "defaultAction": {
                         "type": "uri",
-                        "uri": "line://ti/p/~denjaka_inex"
+                        "uri": "line://ti/p/~denjaka-inexx"
                     },
                     "actions": [
                         {
@@ -101,18 +101,18 @@
                     "text": "add kontak di bawah ini guys",
                     "defaultAction": {
                         "type": "uri",
-                        "uri": "line://ti/p/~denjaka_inex"
+                        "uri": "line://ti/p/~denjaka-inexx"
                     },
                     "actions": [
                         {
                             "type": "uri",
                             "label": "LINE ME",
-                            "uri": "line://ti/p/~denjaka_inex"
+                            "uri": "line://ti/p/~denjaka-inexx"
                         },
                         {
                             "type": "uri",
                             "label": "OFFICIAL",
-                            "uri": "line://ti/p/~denjaka_inex"
+                            "uri": "line://ti/p/~denjaka-inexx"
                         }
                     ]
                 }
@@ -176,7 +176,7 @@
                     "text": "SOSIAL MEDIA",
                     "defaultAction": {
                         "type": "uri",
-                        "uri": "line://ti/p/~denjaka_inex"
+                        "uri": "line://ti/p/~denjaka-inexx"
                     },
                     "actions": [
                         {
@@ -220,7 +220,7 @@
                     "text": "LINE STICKER",
                     "defaultAction": {
                         "type": "uri",
-                        "uri": "line://ti/p/~denjaka_inex"
+                        "uri": "line://ti/p/~denjaka-inexx"
                     },
                     "actions": [
                         {
@@ -247,7 +247,7 @@
             "columns": [
                 {
                     "thumbnailImageUrl": "https://1.bp.blogspot.com/-0cJUYiIj9So/Wg_statUjsI/AAAAAAAAK1k/6L1sY5xJEIUfi-8hxW6KuKBSy6jiVoChQCLcBGAs/s1600/Casey_Youtube_GIF.0.gif",
-                    "title": "℘̰̰̈́ґ̰̰̈́∂̰̰̈́η̰̰̈́к̰̰̈́в̰̰̈́❍̰̰̈́т̰̰̈́ѕ̰̰̈́",
+                    "title": "âÌ°ÍÌ°ÒÌ°ÍÌ°âÌ°ÍÌ°Î·Ì°ÍÌ°ÐºÌ°ÍÌ°Ð²Ì°ÍÌ°âÌ°ÍÌ°ÑÌ°ÍÌ°ÑÌ°ÍÌ°",
                     "text": "REPOSITORY",
                     "actions": [
                         {
@@ -258,19 +258,19 @@
                         {
                             "type": "uri",
                             "label": "OWNER",
-                            "uri": "http://line.me/ti/p/~denjaka_inex"
+                            "uri": "http://line.me/ti/p/~denjaka-inexx"
                         }
                     ]
                 },
                 {
                     "thumbnailImageUrl": "https://preview.ibb.co/ksscEq/1541434980556.jpg",
-                    "title": "✰[R̶T̶B̶] ᎢᎬᎪᎷ ᏴᎾᎢᏚ✰",
+                    "title": "â°[RÌ¶TÌ¶BÌ¶] á¢á¬áªá· á´á¾á¢áâ°",
                     "text": "FARTHNER",
                     "actions": [
                         {
                             "type": "uri",
                             "label": "CREATOR",
-                            "uri": "http://line.me/ti/p/~denjaka_inex"
+                            "uri": "http://line.me/ti/p/~denjaka-inexx"
                         },
                         {
                             "type": "uri",
@@ -282,90 +282,7 @@
             ]
         }
     },
-    "movie": {
-    "type": "template",
-    "altText": "berak di celana",
-      "template": {
-      "type": "image_carousel",
-      "columns": [
-        {
-          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR3P8YN20ibHed1VLREQRtcQnQtiYd1piiCjoK-E9ukB2Ugx4sr",
-          "layout": "horizontal",
-          "action": {
-            "type": "uri",
-            "label": "PLAY NOW",
-            "uri": "http://stomp.tk/archive/BIOS/Rampage-2018.mp4",
-            "area": {
-              "x": 447,
-              "y": 356,
-              "width": 1040,
-              "height": 1040
-            }
-          }
-        },
-        {
-          "imageUrl": "https://www.bigw.com.au/medias/sys_master/images/images/h40/hed/12107450089502.jpg",
-          "layout": "horizontal",
-          "action": {
-            "type": "uri",
-            "label": "PLAY NOW",
-            "uri": "http://stomp.tk/archive/BIOS/Avengers-Infinity-War-2018.mp4",
-            "area": {
-              "x": 447,
-              "y": 356,
-              "width": 1040,
-              "height": 1040
-            }
-          }
-        },
-        {
-          "imageUrl": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSVvvtj6rMsfUyhz9jRNct3XCYqE_AYLKBbtoK0Hb3yPSBffCNiVWiedbCkbg",
-          "layout": "horizontal",
-          "action": {
-            "type": "uri",
-            "label": "PLAY NOW",
-            "uri": "http://stomp.tk/archive/BIOS/Venom-2018.mp4",
-            "area": {
-              "x": 447,
-              "y": 356,
-              "width": 1040,
-              "height": 1040
-            }
-          }
-        },
-        {
-          "imageUrl": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSVvvtj6rMsfUyhz9jRNct3XCYqE_AYLKBbtoK0Hb3yPSBffCNiVWiedbCkbg",
-          "layout": "horizontal",
-          "action": {
-            "type": "uri",
-            "label": "PLAY NOW",
-            "uri": "http://stomp.tk/archive/BIOS/Venom-2018.mp4",
-            "area": {
-              "x": 447,
-              "y": 356,
-              "width": 1040,
-              "height": 1040
-            }
-          }
-        },
-        {
-          "imageUrl": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSVvvtj6rMsfUyhz9jRNct3XCYqE_AYLKBbtoK0Hb3yPSBffCNiVWiedbCkbg",
-          "layout": "horizontal",
-          "action": {
-            "type": "uri",
-            "label": "PLAY NOW",
-            "uri": "http://stomp.tk/archive/BIOS/Venom-2018.mp4",
-            "area": {
-              "x": 447,
-              "y": 356,
-              "width": 1040,
-              "height": 1040
-            }
-          }
-        }
-      ]
-    }
-  },
+    "Server_BUG":"ua5b1fd053f5a6951349b912a8a7b6755"
     "pricelist": {
         "type": "flex",
         "altText": "INEXBOTS STORE",
@@ -376,15 +293,15 @@
                     "backgroundColor": "#000000"
                 },
                 "hero": {
-                    "backgroundColor": "#000080"
+                    "backgroundColor": "#000000"
                 },
                 "body": {
                     "backgroundColor": "#000000",
                     "separator": true,
-                    "separatorColor": "#0000FF"
+                    "separatorColor": "#000080"
                 },
                 "footer": {
-                    "backgroundColor": "#333333",
+                    "backgroundColor": "#000000",
                     "separator": true
                 }
             },
@@ -414,7 +331,7 @@
                     },
                     {
                         "type": "text",
-                        "text": "creator by Denjaka , made in America di Serikat",
+                        "text": "Bot Template, Bot war, Bot protect \nsiapkan akun sendiri.",
                         "size": "xs",
                         "color": "#aaaaaa",
                         "wrap": true
@@ -435,62 +352,14 @@
                                 "contents": [
                                     {
                                         "type": "text",
-                                        "text": "InexBots",
+                                        "text": "1 bot Template",
                                         "size": "sm",
                                         "color": "#aaaaaa",
                                         "flex": 0
                                     },
                                     {
                                         "type": "text",
-                                        "text": "Denjaka_inex",
-                                        "size": "sm",
-                                        "color": "#10CF08",
-                                        "align": "end"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "separator",
-                                "margin":"md"
-                            },
-                            {
-                                "type": "box",
-                                "layout": "horizontal",
-                                "margin": "xxl",
-                                "contents": [
-                                    {
-                                        "type": "text",
-                                        "text": "FEATURE",
-                                        "size": "sm",
-                                        "color": "#C00006"
-                                    },
-                                    {
-                                        "type": "text",
-                                        "text": "STATUS",
-                                        "size": "sm",
-                                        "color": "#C00006",
-                                        "align": "end"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "separator",
-                                "margin": "md"
-                            },
-                            {
-                                "type": "box",
-                                "layout": "horizontal",
-                                "margin": "xxl",
-                                "contents": [
-                                    {
-                                        "type": "text",
-                                        "text": "ᴀɴᴛɪ ᴊs",
-                                        "size": "sm",
-                                        "color": "#aaaaaa"
-                                    },
-                                    {
-                                        "type": "text",
-                                        "text": "✔",
+                                        "text": "Rp.100,000",
                                         "size": "sm",
                                         "color": "#10CF08",
                                         "align": "end"
@@ -500,17 +369,17 @@
                             {
                                 "type": "box",
                                 "layout": "horizontal",
-                                "margin": "xxl",
                                 "contents": [
                                     {
                                         "type": "text",
-                                        "text": "ᴘʀᴏᴛᴇᴄᴛɪᴏɴ",
+                                        "text": "3 bot",
                                         "size": "sm",
-                                        "color": "#aaaaaa"
+                                        "color": "#aaaaaa",
+                                        "flex": 0
                                     },
                                     {
                                         "type": "text",
-                                        "text": "✔",
+                                        "text": "Rp.100,000",
                                         "size": "sm",
                                         "color": "#10CF08",
                                         "align": "end"
@@ -520,17 +389,17 @@
                             {
                                 "type": "box",
                                 "layout": "horizontal",
-                                "margin": "xxl",
                                 "contents": [
                                     {
                                         "type": "text",
-                                        "text": "ᴍᴇᴅɪᴀ",
+                                        "text": "5 bot",
                                         "size": "sm",
-                                        "color": "#aaaaaa"
+                                        "color": "#aaaaaa",
+                                        "flex": 0
                                     },
                                     {
                                         "type": "text",
-                                        "text": "✔",
+                                        "text": "Rp.250,000",
                                         "size": "sm",
                                         "color": "#10CF08",
                                         "align": "end"
@@ -540,17 +409,17 @@
                             {
                                 "type": "box",
                                 "layout": "horizontal",
-                                "margin": "xxl",
                                 "contents": [
                                     {
                                         "type": "text",
-                                        "text": "ᴛᴇᴍᴘʟᴀᴛᴇs",
+                                        "text": "7 bot",
                                         "size": "sm",
-                                        "color": "#aaaaaa"
+                                        "color": "#aaaaaa",
+                                        "flex": 0
                                     },
                                     {
                                         "type": "text",
-                                        "text": "✔",
+                                        "text": "Rp.280,000",
                                         "size": "sm",
                                         "color": "#10CF08",
                                         "align": "end"
@@ -560,37 +429,17 @@
                             {
                                 "type": "box",
                                 "layout": "horizontal",
-                                "margin": "xxl",
                                 "contents": [
                                     {
                                         "type": "text",
-                                        "text": "ʀᴇᴠᴏᴋᴇ",
+                                        "text": "9 bot",
                                         "size": "sm",
-                                        "color": "#aaaaaa"
+                                        "color": "#aaaaaa",
+                                        "flex": 0
                                     },
                                     {
                                         "type": "text",
-                                        "text": "✖",
-                                        "size": "sm",
-                                        "color": "#F7141F",
-                                        "align": "end"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "box",
-                                "layout": "horizontal",
-                                "margin": "xxl",
-                                "contents": [
-                                    {
-                                        "type": "text",
-                                        "text": "ᴀᴜᴛᴏ ʀᴜɴɴᴇʀ",
-                                        "size": "sm",
-                                        "color": "#aaaaaa"
-                                    },
-                                    {
-                                        "type": "text",
-                                        "text": "✔",
+                                        "text": "Rp.350,000",
                                         "size": "sm",
                                         "color": "#10CF08",
                                         "align": "end"
@@ -600,58 +449,17 @@
                             {
                                 "type": "box",
                                 "layout": "horizontal",
-                                "margin": "xxl",
                                 "contents": [
                                     {
                                         "type": "text",
-                                        "text": "ʟɪғғ ᴀᴘᴘ",
+                                        "text": "11 bot",
                                         "size": "sm",
-                                        "color": "#aaaaaa"
+                                        "color": "#aaaaaa",
+                                        "flex": 0
                                     },
                                     {
                                         "type": "text",
-                                        "text": "✔",
-                                        "size": "sm",
-                                        "color": "#10CF08",
-                                        "align": "end"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "box",
-                                "layout": "horizontal",
-                                "margin": "xxl",
-                                "contents": [
-                                    {
-                                        "type": "text",
-                                        "text": "sᴘᴇᴇᴅ ᴜᴘ",
-                                        "size": "sm",
-                                        "color": "#aaaaaa"
-                                    },
-                                    {
-                                        "type": "text",
-                                        "text": "0,008-0,02",
-                                        "size": "sm",
-                                        "color": "#10CF08",
-                                        "align": "end"
-                                    }
-                                ]
-                            },
-                            {
-                                
-                                "type": "box",
-                                "layout": "horizontal",
-                                "margin": "xxl",
-                                "contents": [
-                                    {
-                                        "type": "text",
-                                        "text": "ʙᴏᴛ ᴡᴀʀ",
-                                        "size": "sm",
-                                        "color": "#F7141F"
-                                    },
-                                    {
-                                        "type": "text",
-                                        "text": "✔",
+                                        "text": "Rp.450,000",
                                         "size": "sm",
                                         "color": "#10CF08",
                                         "align": "end"
@@ -678,7 +486,7 @@
                             },
                             {
                                 "type": "text",
-                                "text": "ORDER",
+                                "text": "PEMESANAN VPS",
                                 "color": "#10CF08",
                                 "size": "xs",
                                 "align": "end"
@@ -699,7 +507,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "KLIK DISINI",
-                                    "uri": "line://ti/p/~denjaka_inex"
+                                    "uri": "line://ti/p/~denjaka-inexx"
                                 },
                                 "style": "primary",
                                 "color": "#10CF08"
@@ -888,7 +696,7 @@
                         "action": {
                             "type": "uri",
                             "label": "inexbots",
-                            "uri": "http://line.me/ti/p/~denjaka_inex"
+                            "uri": "http://line.me/ti/p/~denjaka-inexx"
                         },
                         "style": "primary",
                         "color": "#F7141F"
@@ -898,7 +706,7 @@
                         "action": {
                             "type": "uri",
                             "label": "XTC",
-                            "uri": "http://line.me/ti/p/~denjaka_inex"
+                            "uri": "http://line.me/ti/p/~denjaka-inexx"
                         },
                         "style": "primary",
                         "color": "#00ff7f"
@@ -1682,31 +1490,31 @@
             }
         }
     },
-    "help": {
+    "helps": {
         "type": "flex",
-        "altText": "JANGAN PERKOSA AKU!!",
+        "altText": "TOLOOOOONGGGG!!",
         "contents": {
             "type": "bubble",
             "styles": {
                 "header": {
-                    "backgroundColor": "#002727",
+                    "backgroundColor": "#000000",
                     "separator": true,
-                    "separatorColor": "#002727"
+                    "separatorColor": "#000000"
                 },
                 "hero": {
-                    "backgroundColor": "#002727",
+                    "backgroundColor": "#000000",
                     "separator": true,
-                    "separatorColor": "#002727"
+                    "separatorColor": "#000000"
                 },
                 "body": {
-                    "backgroundColor": "#002727",
+                    "backgroundColor": "#000000",
                     "separator": true,
-                    "separatorColor": "#002727"
+                    "separatorColor": "#000000"
                 },
                 "footer": {
-                    "backgroundColor": "#002727",
+                    "backgroundColor": "#000000",
                     "separator": true,
-                    "separatorColor": "#002727"
+                    "separatorColor": "#000000"
                 }
             },
             "hero": {
@@ -1756,7 +1564,58 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "HELP BOTS",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Helpbot"
+                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Help3"
+                                }
+                            },
+                            {
+                                "type": "separator",
+                                "color": "#002727"
+                            },
+                            {
+                                "type": "button",
+                                "style": "secondary",
+                                "color": "#BE1700",
+                                "height": "sm",
+                                "gravity": "center",
+                                "flex": 1,
+                                "action": {
+                                    "type": "uri",
+                                    "label": "HELP MENU",
+                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Help1"
+                                }
+                            },
+                            {
+                                "type": "separator",
+                                "color": "#002727"
+                            },
+                            {
+                                "type": "button",
+                                "style": "secondary",
+                                "color": "#BE1700",
+                                "height": "sm",
+                                "gravity": "center",
+                                "flex": 1,
+                                "action": {
+                                    "type": "uri",
+                                    "label": "HELP MEDIA",
+                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Help2"
+                                }
+                            },
+                            {
+                                "type": "separator",
+                                "color": "#002727"
+                            },
+                            {
+                                "type": "button",
+                                "style": "secondary",
+                                "color": "#BE1700",
+                                "height": "sm",
+                                "gravity": "center",
+                                "flex": 1,
+                                "action": {
+                                    "type": "uri",
+                                    "label": "GRUPLIST",
+                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Gruplist"
                                 }
                             },
                             {
@@ -1789,59 +1648,8 @@
                                 "flex": 1,
                                 "action": {
                                     "type": "uri",
-                                    "label": "PHOTO MEMBER GROUP",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Memberpict"
-                                }
-                            },
-                            {
-                                "type": "separator",
-                                "color": "#002727"
-                            },
-                            {
-                                "type": "button",
-                                "style": "secondary",
-                                "color": "#BE1700",
-                                "height": "sm",
-                                "gravity": "center",
-                                "flex": 1,
-                                "action": {
-                                    "type": "uri",
-                                    "label": "PROFILKU",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Myprofile"
-                                }
-                            },
-                            {
-                                "type": "separator",
-                                "color": "#002727"
-                            },
-                            {
-                                "type": "button",
-                                "style": "secondary",
-                                "color": "#BE1700",
-                                "height": "sm",
-                                "gravity": "center",
-                                "flex": 1,
-                                "action": {
-                                    "type": "uri",
-                                    "label": "ANGGOTA GROUP",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Memberlist"
-                                }
-                            },
-                            {
-                                "type": "separator",
-                                "color": "#002727"
-                            },
-                            {
-                                "type": "button",
-                                "style": "secondary",
-                                "color": "#BE1700",
-                                "height": "sm",
-                                "gravity": "center",
-                                "flex": 1,
-                                "action": {
-                                    "type": "uri",
-                                    "label": "ANGGOTA TERTUNDA",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Pendinglist"
+                                    "label": "GALERI",
+                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Galeri"
                                 }
                             },
                             {
@@ -1874,7 +1682,7 @@
                                 "flex": 1,
                                 "action": {
                                     "type": "uri",
-                                    "label": "BROADCAST",
+                                    "label": "KOSONG",
                                     "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Assalamu'alaikum"
                                 }
                             },
@@ -1891,7 +1699,7 @@
                                 "flex": 1,
                                 "action": {
                                     "type": "uri",
-                                    "label": "UNTUK KICK",
+                                    "label": "KOSONG",
                                     "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Crot @Tag"
                                 }
                             },
@@ -1925,8 +1733,8 @@
                                 "flex": 1,
                                 "action": {
                                     "type": "uri",
-                                    "label": "GRUPKU",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Gruplist"
+                                    "label": "INFO GRUP",
+                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Ginfo"
                                 }
                             }
                         ]
@@ -2750,7 +2558,7 @@
                                 "gravity": "center",
                                 "action": {
                                     "type": "uri",
-                                    "uri": "http://line.me/ti/p/~denjaka_inex"
+                                    "uri": "http://line.me/ti/p/~denjaka-inexx"
                                 }
                             },
                             {
@@ -2764,7 +2572,7 @@
                                 "gravity": "center",
                                 "action": {
                                     "type": "uri",
-                                    "uri": "http://line.me/ti/p/~denjaka_inex"
+                                    "uri": "http://line.me/ti/p/~denjaka-inexx"
                                 }
                             }
                         ]
@@ -2850,7 +2658,7 @@
                 "aspectMode": "cover",
                 "action": {
                     "type": "uri",
-                    "uri": "https://line.me/ti/p/~denjaka_inex"
+                    "uri": "https://line.me/ti/p/~denjaka-inexx"
                 }
             },
             "body": {
@@ -2886,7 +2694,7 @@
                                 "height": "sm",
                                 "action": {
                                    "type": "uri",
-                                   "label": "🅼🆄🆂🅸🅺🅹🅾🅾🆇",
+                                   "label": "ð¼ððð¸ðºð¹ð¾ð¾ð",
                                    "uri": "line://app/1623679774-z6dOvOV9"
                                 }
                             },
@@ -2919,7 +2727,7 @@
                                 "height": "sm",
                                 "action": {
                                    "type": "uri",
-                                   "label": "🅿🅴🅽🅲🅰🆁🅸🅰🅽",
+                                   "label": "ð¿ð´ð½ð²ð°ðð¸ð°ð½",
                                    "uri": "line://app/1623679774-3vDKkKaP"
                                 }
                             },
@@ -2952,7 +2760,7 @@
                                 "height": "sm",
                                 "action": {
                                    "type": "uri",
-                                   "label": "🅻🅸🆁🅸🅺🅻🅰🅶🆄",
+                                   "label": "ð»ð¸ðð¸ðºð»ð°ð¶ð",
                                    "uri": "line://app/1623679774-oYnAvAdW"
                                 }
                             },
@@ -2985,7 +2793,7 @@
                                 "height": "sm",
                                 "action": {
                                    "type": "uri",
-                                   "label": "🅴🅳🅸🆃🅵🅾🆃🅾",
+                                   "label": "ð´ð³ð¸ððµð¾ðð¾",
                                    "uri": "line://app/1623679774-1pKn8ngr"
                                 }
                             },
@@ -3018,7 +2826,7 @@
                                 "height": "sm",
                                 "action": {
                                    "type": "uri",
-                                   "label": "🅺🅰🅻🅴🅽🅳🅴🆁",
+                                   "label": "ðºð°ð»ð´ð½ð³ð´ð",
                                    "uri": "line://app/1623679774-YvdwxwV3"
                                 }
                             },
@@ -3051,7 +2859,7 @@
                                 "height": "sm",
                                 "action": {
                                    "type": "uri",
-                                   "label": "🅽🅾🆃🅴🅿🅰🅳",
+                                   "label": "ð½ð¾ðð´ð¿ð°ð³",
                                    "uri": "line://app/1623679774-pXJyQy1D"
                                 }
                             },
@@ -3085,7 +2893,7 @@
                                 "gravity": "top",
                                 "action": {
                                    "type": "uri",
-                                   "label": "🆃🆅🅾🅽🅻🅸🅽🅴",
+                                   "label": "ððð¾ð½ð»ð¸ð½ð´",
                                    "uri": "line://app/1623679774-WVajRjDn"
                                 }
                             }
@@ -3108,7 +2916,7 @@
                             "height": "sm",
                             "action": {
                                 "type": "uri",
-                                "label": "🅼🆈🆃🆄🅱🅴",
+                                "label": "ð¼ðððð±ð´",
                                 "uri": "https://bit.ly/2xbVxlh"
                             }
                         }
