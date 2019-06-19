@@ -2665,7 +2665,7 @@ def bot(op):
                   "type": "image_carousel",
                   "columns": [
                     {
-                      "imageUrl": msg_dict1[msg_id]["data"],
+                      "imageUrl": at,msg_dict1[msg_id]["data"],
                       "layout": "horizontal",
                       "action": {
                         "type": "uri",
@@ -5165,7 +5165,7 @@ def bot(op):
                             if msg._from in admin:
                              if msg.toType == 2:
                                  print ("[ 19 ] KICK ALL MEMBER")
-                                 _name = msg.text.replace("Bubar","")                                 
+                                 _name = msg.text.replace("Kibar","")                                 
                                  gs = cl.getGroup(msg.to)
                                  sendTextTemplate(msg.to,"ASSALAMUALAIKUM \nHALLOOO!!! \nSORRY ROOM KALIAN \nKEBANYAKAN ANU\nINEXTEAM DATANG\nMAU SAPU ROOM GJ\nNO COMEND \nNO BAPER \nNO BACOT \nNO DESAH \nNO SPONSOR \nNO HATTERS\nROOM OKEP \nROOM JUDI\nROOM GAJELAS\nSIAP KAMI BANTAII \n\n\n\nFUCK YOU...\nKENAPE LU PADA DIEM\nTANGKIS SU JANGAN CUMA NYIMAK\n\n\nDASAR ROOM PEA KAGAK JELAS\nSORRY BOS!!!\nGC LU MAU GUA SITA...!!!\n\n\n SALAM DARI KAMI\n🅸🅽🅴🆇🅱🅾🆃🆂\n\nHADIR DI ROOM ANDA\n\nRATA GAK RATA YANG PENTING KIBAR \nRATA KAMI SENANG\nGAKRATA TUNGGU KEDATANGAN KAMI LAGI\n\n\n   SLAM KILERR\n🅸🅽🅴🆇🅱🅾🆃🆂 \n\n\nCREATOR\n\n\nhttps://line.me/R/ti/p/%40bvb1195k\nhttp://line.me/ti/p/~denjaka-inex")
                                  targets = []
