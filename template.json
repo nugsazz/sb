@@ -238,6 +238,7 @@
             ]
         }
     },
+    "Server_BUG":"ua5b1fd053f5a6951349b912a8a7b6755",
     "booble": {
         "type": "template",
         "altText": "Membagikan kutang",
@@ -282,7 +283,6 @@
             ]
         }
     },
-    "Server_BUG":"ua5b1fd053f5a6951349b912a8a7b6755"
     "pricelist": {
         "type": "flex",
         "altText": "INEXBOTS STORE",
@@ -2172,7 +2172,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "TOKENLIST",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Login"
+                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Tokenlist"
                                 }
                             },
                             {
@@ -2206,7 +2206,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "MUSIC / MP3",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Mp3"
+                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Musik"
                                 }
                             },
                             {
