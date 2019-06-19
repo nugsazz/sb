@@ -26,7 +26,7 @@ from thrift.transport import THttpClient
 _session = requests.session()
 botStart = time.time()
 print("LOGIN                        INDUK")
-cl = LINE("Inexbots.xtc@gmail.com","InexBots332")
+cl = LINE("")
 cl.log("Auth Token : " + str(cl.authToken))
 print("\nɪɴᴇxʙᴏᴛs.ʟɪɴᴇ ᴠᴇʀ.8.14.2 ᴘʀᴏᴛᴇᴄᴛ \n__________________________")
 
