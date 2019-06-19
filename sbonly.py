@@ -26,7 +26,7 @@ from thrift.transport import THttpClient
 _session = requests.session()
 botStart = time.time()
 print("LOGIN                        INDUK")
-cl = LINE("InexBots.xtc@gmail.com","InexBots332")
+cl = LINE("Inexbots.xtc@gmail.com","InexBots332")
 cl.log("Auth Token : " + str(cl.authToken))
 print("\nɪɴᴇxʙᴏᴛs.ʟɪɴᴇ ᴠᴇʀ.8.14.2 ᴘʀᴏᴛᴇᴄᴛ \n__________________________")
 
@@ -295,7 +295,7 @@ def logError(text):
     time = "{}, {} - {} - {} | {}".format(str(hasil), str(inihari.strftime('%d')), str(bln), str(inihari.strftime('%Y')), str(inihari.strftime('%H:%M:%S')))
     with open("logError.txt","a") as error:
         error.write("\n[ {} ] {}".format(str(time), text))
-Devert = "Thank you brothers\nMy name is "+cont.displayName+" use your bot script\n\nhttps://github.com/InexBots"
+Devert = "My name is "+cont.displayName+" use your bot script Templates\n\nhttps://github.com/InexBots"
 def delete_log():
     ndt = datetime.now()
     for data in msg_dict:
@@ -1750,10 +1750,11 @@ def command(text):
 def help():
     key = Setmain["keyCommand"]
     key = key.title()
-    helpMessage = "╔━━═☠• INEXBOTS •☠═━━╗\n" + \
+    helpMessage = extras + "╔━━═☠• INEXBOTS •☠═━━╗\n" + \
                   "╠☠•➤" + key + "☠•➤MENU HELP•☠\n" + \
                   "╠☠•➤" + key + "Me\n" + \
                   "╠☠•➤" + key + "Tokenlist\n" + \
+                  "╠☠•➤" + key + "Memberpict\n" + \
                   "╠☠•➤" + key + "Mid「@」\n" + \
                   "╠☠•➤" + key + "Getmid「@」\n" + \
                   "╠☠•➤" + key + "Info「@」\n" + \
@@ -1809,7 +1810,7 @@ def help():
 def helpa():
     key = Setmain["keyCommand"]
     key = key.title()
-    helpMessagea = "╔━━═☠• INEXBOTS •☠═━━╗\n" + \
+    helpMessagea = extras + "╔━━═☠• INEXBOTS •☠═━━╗\n" + \
                   "╠☠•➤" + key + "☠•ARESPONSE•☠\n" + \
                   "╠☠•➤" + key + "Sticker「on/off」\n" + \
                   "╠☠•➤" + key + "R1「on/off」\n" + \
@@ -1840,7 +1841,7 @@ def helpa():
 def helpbot():
     key = Setmain["keyCommand"]
     key = key.title()
-    helpMessage1 = "╔━━━═☠•☠• INEXBOTS •☠•☠═━━━╗\n" + \
+    helpMessage1 = extras + "╔━━━═☠•☠• INEXBOTS •☠•☠═━━━╗\n" + \
                   "╠☠•➤" + key + "☠•HELP BOT•☠\n" + \
                   "╠☠•➤" + key + "Blc\n" + \
                   "╠☠•➤" + key + "Ban:on\n" + \
