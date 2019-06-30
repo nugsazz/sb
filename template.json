@@ -2155,7 +2155,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "TOKENLIST",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Login"
+                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Tokenlist"
                                 }
                             },
                             {
@@ -2189,7 +2189,7 @@
                                 "action": {
                                     "type": "uri",
                                     "label": "MUSIC / MP3",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Mp3"
+                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Musik"
                                 }
                             },
                             {
@@ -2205,8 +2205,8 @@
                                 "flex": 1,
                                 "action": {
                                     "type": "uri",
-                                    "label": "INFO ROOM",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Ginfo"
+                                    "label": "TV ONLINE",
+                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Tipi"
                                 }
                             },
                             {
