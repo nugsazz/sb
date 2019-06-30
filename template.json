@@ -238,7 +238,6 @@
             ]
         }
     },
-    "Server_BUG":"ua5b1fd053f5a6951349b912a8a7b6755",
     "booble": {
         "type": "template",
         "altText": "Membagikan kutang",
@@ -307,7 +306,7 @@
             },
             "hero": {
                 "type": "image",
-                "url": "https://z-m-scontent.fcgk3-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/51691304_1868204569955031_2146220437988704256_o.jpg?_nc_cat=103&efg=eyJpIjoibyJ9&_nc_eui2=AeH2ckLWYQHsnNZ_h-dxkaE6z8BLc-ped-MztW4ZIVdUV-ntVbUtpxp-yrIWasU0oZ8NiwTRmKSqr0DSF8HXmDE7MZQ7aCk7ff-H_i1Gzo8g7w&_nc_ad=z-m&_nc_cid=1101&_nc_zor=9&_nc_ht=z-m-scontent.fcgk3-1.fna&oh=0f1ff9c6349023cf62345295df40deca&oe=5CFFF2F3",
+                "url": "https://scontent.fcgk9-2.fna.fbcdn.net/v/t1.0-9/cp0/e15/q65/p851x315/51691304_1868204569955031_2146220437988704256_o.jpg?_nc_cat=103&efg=eyJpIjoiYiJ9&_nc_eui2=AeH2ckLWYQHsnNZ_h-dxkaE6z8BLc-ped-MztW4ZIVdUV-ntVbUtpxp-yrIWasU0oZ8NiwTRmKSqr0DSF8HXmDE7MZQ7aCk7ff-H_i1Gzo8g7w&_nc_oc=AQn9OIKwJojXlHshN7igjGYPAx0PGSK3ICR-Vyp57YXxp1cGQulKVLgPBiaFkJfI2Iw&_nc_ht=scontent.fcgk9-2.fna&oh=bf88bf2a4f06709e8f5d18310f26865c&oe=5DB50A10",
                 "size": "full",
                 "aspectRatio": "3:1"
             },
@@ -608,8 +607,7 @@
                     {
                         "type": "text",
                         "text": "WE ARE INEXBOTS TEAM",
-                        "color": "#00ffff"
-                        
+                        "color": "#000080"
                     }
                 ]
             },
@@ -721,7 +719,6 @@
                         "type": "text",
                         "text": "_______ TEAM INEXBOTS ______",
                         "color": "#F7141F"
-                        
                     }
                 ]
             }
@@ -754,7 +751,6 @@
                         "type": "text",
                         "text": "KODE WARNA HTML PART 1",
                         "color": "#00ffff"
-                        
                     }
                 ]
             },
@@ -1158,7 +1154,6 @@
                         "type": "text",
                         "text": "KODE WARNA HTML PART 2",
                         "color": "#00ffff"
-                        
                     }
                 ]
             },
@@ -1531,7 +1526,6 @@
                         "type": "text",
                         "text": "INEXBOTS_TEAM",
                         "color": "#F7141F"
-                        
                     }
                 ]
             },
@@ -2003,29 +1997,29 @@
             "type": "bubble",
             "styles": {
                 "header": {
-                    "backgroundColor": "#000000",
+                    "backgroundColor": "#000080",
                     "separator": true,
                     "separatorColor": "#000000"
                 },
                 "hero": {
-                    "backgroundColor": "#000000",
+                    "backgroundColor": "#000080",
                     "separator": true,
                     "separatorColor": "#000000"
                 },
                 "body": {
-                    "backgroundColor": "#000000",
+                    "backgroundColor": "#000080",
                     "separator": true,
                     "separatorColor": "#000000"
                 },
                 "footer": {
-                    "backgroundColor": "#000000",
+                    "backgroundColor": "#000080",
                     "separator": true,
                     "separatorColor": "#000000"
                 }
             },
             "hero": {
                 "type": "image",
-                "url": "https://z-m-scontent.fcgk3-1.fna.fbcdn.net/v/t1.0-9/fr/cp0/e15/q65/51691304_1868204569955031_2146220437988704256_o.jpg?_nc_cat=103&efg=eyJpIjoibyJ9&_nc_eui2=AeH2ckLWYQHsnNZ_h-dxkaE6z8BLc-ped-MztW4ZIVdUV-ntVbUtpxp-yrIWasU0oZ8NiwTRmKSqr0DSF8HXmDE7MZQ7aCk7ff-H_i1Gzo8g7w&_nc_ad=z-m&_nc_cid=1101&_nc_zor=9&_nc_ht=z-m-scontent.fcgk3-1.fna&oh=0f1ff9c6349023cf62345295df40deca&oe=5CFFF2F3",
+                "url": "https://scontent.fcgk9-2.fna.fbcdn.net/v/t1.0-9/cp0/e15/q65/p851x315/51691304_1868204569955031_2146220437988704256_o.jpg?_nc_cat=103&efg=eyJpIjoiYiJ9&_nc_eui2=AeH2ckLWYQHsnNZ_h-dxkaE6z8BLc-ped-MztW4ZIVdUV-ntVbUtpxp-yrIWasU0oZ8NiwTRmKSqr0DSF8HXmDE7MZQ7aCk7ff-H_i1Gzo8g7w&_nc_oc=AQm7xzTOlb8V5DhWb1yCtqp2gydJU4yXN71S40eVNFtfQE-Cs8vlwLj9D2nFgZaJ7OM&_nc_ht=scontent.fcgk9-2.fna&oh=ff1e25594786cf6cc4efeba88818888f&oe=5DB50A10",
                 "size": "full",
                 "aspectRatio": "3:1"
             },
@@ -2035,19 +2029,7 @@
                 "contents": [
                     {
                         "type": "text",
-                        "text": "INEXBOTS_TEAM",
-                        "color": "#F7141F"
-                        
-                    }
-                ]
-            },
-            "body": {
-                "type": "box",
-                "layout": "vertical",
-                "contents": [
-                    {
-                        "type": "text",
-                        "text": "SELFBOT | SELFPRO | PROTECT",
+                        "text": "ð®âð³âðªâð½âð§âð´âð¹âð¸â ð²âðªâð³âðº",
                         "color": "#F7141F"
                     }
                 ]
@@ -2069,7 +2051,7 @@
                                 "flex": 1,
                                 "action": {
                                     "type": "uri",
-                                    "label": "HELP MEDIA",
+                                    "label": "ð·ð´ð»ð¿ ð¼ð´ð³ð¸ð°",
                                     "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Helpmedia"
                                 }
                             },
@@ -2086,7 +2068,7 @@
                                 "flex": 1,
                                 "action": {
                                     "type": "uri",
-                                    "label": "HELP ME",
+                                    "label": "ð·ð´ð»ð¿ ð¼ð´",
                                     "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Key"
                                 }
                             },
@@ -2103,7 +2085,7 @@
                                 "flex": 1,
                                 "action": {
                                     "type": "uri",
-                                    "label": "HELP GROUP",
+                                    "label": "ð·ð´ð»ð¿ ð¶ðð¾ðð¿",
                                     "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Help2"
                                 }
                             },
@@ -2120,7 +2102,7 @@
                                 "flex": 1,
                                 "action": {
                                     "type": "uri",
-                                    "label": "GALERI",
+                                    "label": "ð¶ð°ð»ð´ðð¸",
                                     "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Galeri"
                                 }
                             },
@@ -2137,7 +2119,7 @@
                                 "flex": 1,
                                 "action": {
                                     "type": "uri",
-                                    "label": "MULTIMEDIA",
+                                    "label": "ð¼ðð»ðð¸ð¼ð´ð³ð¸ð°",
                                     "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Listapp"
                                 }
                             },
@@ -2154,7 +2136,7 @@
                                 "flex": 1,
                                 "action": {
                                     "type": "uri",
-                                    "label": "MEDIA",
+                                    "label": "ð¼ð´ð³ð¸ð°",
                                     "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Helpmedia"
                                 }
                             },
@@ -2171,7 +2153,7 @@
                                 "flex": 1,
                                 "action": {
                                     "type": "uri",
-                                    "label": "TOKENLIST",
+                                    "label": "ðð¾ðºð´ð½ð»ð¸ðð",
                                     "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Tokenlist"
                                 }
                             },
@@ -2188,7 +2170,7 @@
                                 "flex": 1,
                                 "action": {
                                     "type": "uri",
-                                    "label": "YOUTUBE",
+                                    "label": "ðð¾ðððð±ð´",
                                     "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Youtube"
                                 }
                             },
@@ -2205,7 +2187,7 @@
                                 "flex": 1,
                                 "action": {
                                     "type": "uri",
-                                    "label": "MUSIC / MP3",
+                                    "label": "ð¼ððð¸ðº / ð¼ð¿ ð¿ð»ð°ðð´ð",
                                     "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Musik"
                                 }
                             },
@@ -2222,8 +2204,8 @@
                                 "flex": 1,
                                 "action": {
                                     "type": "uri",
-                                    "label": "INFO ROOM",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Ginfo"
+                                    "label": "ðð´ð»ð´ðð¸ðð¸ ð¾ð½ð»ð¸ð½ð´",
+                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Tipi"
                                 }
                             },
                             {
@@ -2239,9 +2221,9 @@
                                 "flex": 1,
                                 "action": {
                                     "type": "uri",
-                                    "label": "DAFTAR HARGA",
+                                    "label": "ð¾ðð³ð´ð",
                                     "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Price"
-                                }
+                                 }
                             }
                         ]
                     }
